@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Creational\" />
+    <Folder Include="Structural\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetStudy.Core\NetStudy.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,4 +1,4 @@
-﻿namespace Pilots.Variant
+﻿namespace NetStudy.DifficultSubject.Variant
 {
     public class Animal
     {

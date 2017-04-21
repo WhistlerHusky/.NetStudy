@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Pilots
+namespace NetStudy.Core
 {
     public interface IRunner
     {

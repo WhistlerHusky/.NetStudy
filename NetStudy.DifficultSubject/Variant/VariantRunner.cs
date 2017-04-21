@@ -1,6 +1,7 @@
 ﻿using System;
+using NetStudy.Core;
 
-namespace Pilots.Variant
+namespace NetStudy.DifficultSubject.Variant
 {
     public class VariantRunner : IRunner
     {
