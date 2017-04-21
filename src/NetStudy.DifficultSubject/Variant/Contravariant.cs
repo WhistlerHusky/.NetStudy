@@ -1,4 +1,6 @@
-﻿namespace NetStudy.DifficultSubject.Variant
+﻿using System;
+
+namespace NetStudy.DifficultSubject.Variant
 {
     /// <summary>
     /// Contravariant
@@ -25,9 +27,27 @@
         {
             return first.Name.Length > second.Name.Length ? first.Name : second.Name;
         }
+
+        IComparable<string> comparable = new ObjectComparable<object>();
     }
 
-     /// <summary>
+    public class ObjectComparable<T> : IComparable<T>
+    {
+        public int CompareTo(object obj)
+        {
+            if (ReferenceEquals(null, obj)) return 1;
+            if (ReferenceEquals(this, obj)) return 0;
+            if (!(obj is ObjectComparable<T>)) throw new ArgumentException($"Object must be of type {nameof(ObjectComparable<T>)}");
+            return CompareTo((ObjectComparable<T>) obj);
+        }
+
+        public int CompareTo(T other)
+        {
+            return 0;
+        }
+    }
+
+    /// <summary>
     /// Lion은 Power로 뽑느다.
     /// </summary>
     public class FindKingLion : IContravarianct<Lion>

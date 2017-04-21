@@ -32,6 +32,12 @@ namespace NetSutdy.DesignPattern.Behavioral.Observer.ObserverPull
             var news = _subject.GetNews();
 
             Console.WriteLine($"{Name} got new news {news.Title} - {news.Body}");
+
+        }
+
+        public void StopGettingNews()
+        {
+            _subject?.UnRegister(this);
         }
     }
 }

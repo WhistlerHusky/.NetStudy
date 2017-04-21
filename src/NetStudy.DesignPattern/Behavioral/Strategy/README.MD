@@ -30,8 +30,6 @@ public class StupidMarin : Unit, IWeapon
 
       unit.GotDamage(initDamage);
     }
-            .
-            .
 }
 ```
 반면, 똑똑한 마린은 IWeapon을 구성으로 가지고 있기 때문에,

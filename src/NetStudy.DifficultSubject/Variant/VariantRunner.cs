@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection.Metadata;
 using NetStudy.Core;
 
 namespace NetStudy.DifficultSubject.Variant
@@ -16,13 +18,11 @@ namespace NetStudy.DifficultSubject.Variant
             var theKing = animalConvarianct.GetKing();
             //Lion 이 출력됨
             Console.WriteLine(theKing.Name);
-
             //다시 CovariantAnimal type 객체를 넣어주면.
             animalConvarianct = new CovariantAnimal();
             theKing = animalConvarianct.GetKing();
             //Animal 이 출력됨
             Console.WriteLine(theKing.Name);
-
             // CovariantLion type의 변수에 CovariantAnimal type 객체 대입 불가능 (Contranvariant 면 가능)
             //lionCovarianct = animalConvarianct; //compiler error
 

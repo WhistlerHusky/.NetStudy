@@ -1,5 +1,5 @@
-﻿
-using NetStudy.Core;
+﻿using NetStudy.Core;
+using NetStudy.DifficultSubject.Variant;
 using NetSutdy.DesignPattern.Behavioral;
 using NetSutdy.DesignPattern.Behavioral.Observer.ObserverPull;
 using NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush;
@@ -11,11 +11,7 @@ namespace NetStudy.Runner
     {
         static void Main(string[] args)
         {
-            //IRunner runner = new VariantRunner();
-            //IRunner runner = new StrategyPattern();
-            //IRunner runner = new ObserverPatternPush();
-            IRunner runner = new ObserverPatternPull();
-            
+            IRunner runner = new VariantRunner();
             runner.Run();
         }
     }
