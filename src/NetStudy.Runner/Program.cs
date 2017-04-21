@@ -1,5 +1,5 @@
-﻿using NetStudy.Core;
-using NetStudy.DifficultSubject.Variant;
+﻿
+using NetStudy.Core;
 using NetSutdy.DesignPattern.Behavioral.Strategy;
 
 namespace NetStudy.Runner

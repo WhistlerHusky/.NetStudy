@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A21A5882-83EA-4E47-BC63-8E9F76EA481E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStudy.Runner", "src\study\NetStudy.Runner.csproj", "{C389DD85-51CF-4434-89FF-8D15A8ECCF31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStudy.Runner", "src\NetStudy.Runner\NetStudy.Runner.csproj", "{C389DD85-51CF-4434-89FF-8D15A8ECCF31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSutdy.DesignPattern", "DesignPattern\NetSutdy.DesignPattern.csproj", "{9BE646FD-C784-4BC5-BFEE-74BE27CF0D95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSutdy.DesignPattern", "src\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj", "{9BE646FD-C784-4BC5-BFEE-74BE27CF0D95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStudy.Core", "NetStudy.Core\NetStudy.Core.csproj", "{65B789D0-619F-4104-A715-94D6F2F2752F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStudy.Core", "src\NetStudy.Core\NetStudy.Core.csproj", "{65B789D0-619F-4104-A715-94D6F2F2752F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStudy.DifficultSubject", "NetStudy.DifficultSubject\NetStudy.DifficultSubject.csproj", "{D3946553-A695-4E21-B6DF-C5120F1BB82C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStudy.DifficultSubject", "src\NetStudy.DifficultSubject\NetStudy.DifficultSubject.csproj", "{D3946553-A695-4E21-B6DF-C5120F1BB82C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

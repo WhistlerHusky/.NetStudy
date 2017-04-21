@@ -8,6 +8,8 @@
   <ItemGroup>
     <ProjectReference Include="..\..\DesignPattern\NetSutdy.DesignPattern.csproj" />
     <ProjectReference Include="..\..\NetStudy.DifficultSubject\NetStudy.DifficultSubject.csproj" />
+    <ProjectReference Include="..\NetStudy.Core\NetStudy.Core.csproj" />
+    <ProjectReference Include="..\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj" />
   </ItemGroup>
 
   <ItemGroup>
