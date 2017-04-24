@@ -1,4 +1,4 @@
-﻿namespace NetSutdy.DesignPattern.Behavioral.Observer.ObserverPull
+﻿namespace NetSutdy.DesignPattern.Behavioral.Observer
 {
     public class News
     {

@@ -1,21 +1,22 @@
 ﻿using System;
 using NetStudy.Core;
+using NetSutdy.DesignPattern.Behavioral.Strategy;
 
-namespace NetSutdy.DesignPattern.Behavioral.Strategy
+namespace NetSutdy.DesignPattern.Structural.Decorator
 {
-    public class StrategyPatternRunner : IRunner
+    public class DecoratorRunner : IRunner
     {
         public void Run()
         {
             IWeapon gun = new Gun();
- 
+
             //멍청한 마린
             StupidMarin stupidMarin = new StupidMarin();
-            stupidMarin.Name = "Stupid Marin";
+            stupidMarin.Name = "Stupid Marin A";
 
             //똑똑한 마린
             SmartMarin smartMarin = new SmartMarin(gun);
-            smartMarin.Name = "Smart Marin";
+            smartMarin.Name = "Smart Marin B";
 
             //멍청한 마린이 똑똑한 마린에게 공격을 시작함.
             stupidMarin.Attack(smartMarin);
@@ -35,9 +36,9 @@ namespace NetSutdy.DesignPattern.Behavioral.Strategy
                 Console.WriteLine();
             }
 
-            //이상태로 가면 똑똑한 마린이 질꺼같아서 무기를 바꿈.
-            //이부분이 Strategy pattern의 핵심!
-            smartMarin.ChangeWeapon(new LaserGun());
+            // 여기서 Strategy pattern 에서는 무기를 바꿨지만
+            // 이번엔 Decorator pattern을 이용해서 스팀팩을 구현, 두번씩 공격을 함
+            Decorator stimpackMarin = new Stimpack(smartMarin);
 
             //다시 죽을때까지 싸움.
             while (stupidMarin.HP > 0 && smartMarin.HP > 0)
@@ -45,7 +46,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Strategy
                 stupidMarin.Attack(smartMarin);
                 Console.WriteLine();
 
-                smartMarin.Attack(stupidMarin);
+                stimpackMarin.Attack(stupidMarin);
                 Console.WriteLine();
             }
 
@@ -53,5 +54,5 @@ namespace NetSutdy.DesignPattern.Behavioral.Strategy
 
             Console.WriteLine($"The winner is {winner}");
         }
-    }
+    }   
 }

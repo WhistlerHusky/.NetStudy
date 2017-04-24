@@ -6,7 +6,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush
     {
         private readonly IList<IObserver> _observers;
 
-        private News _news;
+        private ObserverPull.News _news;
 
         public string Name { get; set; }
 
@@ -41,7 +41,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush
             }
         }
 
-        public void UpdateNews(News news)
+        public void UpdateNews(ObserverPull.News news)
         {
             _news = news;
 

@@ -15,7 +15,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush
             Name = name;
         }
 
-        public void Update(News news)
+        public void Update(ObserverPull.News news)
         {
             Console.WriteLine($"{Name} got new news {news.Title} - {news.Body}".Reverse().ToArray());
         }

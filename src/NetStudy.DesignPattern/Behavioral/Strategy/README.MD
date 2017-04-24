@@ -22,7 +22,6 @@ public class StupidMarin : Unit, IWeapon
 {
             .
             .
-          
     public void Fire(Unit unit)
     {
       //직접 내부 구현을 수정해야한다.
@@ -34,19 +33,20 @@ public class StupidMarin : Unit, IWeapon
 ```
 반면, 똑똑한 마린은 IWeapon을 구성으로 가지고 있기 때문에,
 ```cs
-public class SmartMarin : Unit
+public class AttackableUnit : Unit
 {
     private IWeapon _weapon;
            .
            .
+}
+public class SmartMarin : AttackableUnit
+{
 }
 ```
 이렇게 무기를 만들어서
 ```cs
 public class Gun : IWeapon
 {
-  public int UpgradeLvl { get; set; } = 0;
-
   public void Fire(Unit unit)
   {
     int initDamage = 5;
@@ -57,15 +57,13 @@ public class Gun : IWeapon
 ```
 생성자나, 프라퍼티 혹은 메서드를 통해 교체해주면 된다.
 ```cs
-IWeapon Gun = new Gun();
-SmartMarin smartMarin = new SmartMarin(Gun);
+IWeapon gun = new Gun();
+SmartMarin smartMarin = new SmartMarin(gun);
 ```
 추후 업데이트로 마린이 다른무기도 사용가능하게 될 경우, 해당 마린 클래스를 수정하지않고, IWeapon을 구현하는 무기를 만들어서
 ```cs
 public class LaserGun : IWeapon
 {
-    public int UpgradeLvl { get; set; } = 0;
-
     public void Fire(Unit unit)
     {
       int initDamage = 8;

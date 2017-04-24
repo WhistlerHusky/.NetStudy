@@ -2,6 +2,6 @@
 {
     public interface IObserver
     {
-        void Update(News news);
+        void Update(ObserverPull.News news);
     }
 }

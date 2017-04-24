@@ -16,7 +16,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush
             p.Register(readerA);
 
             //새로운 뉴스 발생
-            News news = new News("GitHub", "Github is awesome!");
+            ObserverPull.News news = new ObserverPull.News("GitHub", "Github is awesome!");
 
             //Metro 신문사가 뉴스를 획득
             //그러면 안에서 구독자에게 자동으로 신문이 발행됨.
@@ -28,7 +28,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush
             p.Register(readerB);
 
             //새로운 뉴스 발생
-            news = new News("GitHub", "Github is getting even better!");
+            news = new ObserverPull.News("GitHub", "Github is getting even better!");
 
             //Metro 신문사가 뉴스를 획득
             p.UpdateNews(news);
@@ -37,7 +37,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush
             p.UnRegister(readerA);
             
             //새로운 뉴스 발행
-            news = new News("Github","Open source is awesome!");
+            news = new ObserverPull.News("Github","Open source is awesome!");
 
             //Metro 신문사가 뉴스를 획득
             p.UpdateNews(news); //Reader B만 뉴스를 획득함.
@@ -49,7 +49,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush
             p.Register(reverseReader);
 
             //새로운 뉴스 발생
-            news = new News("Github","Server Down!");
+            news = new ObserverPull.News("Github","Server Down!");
 
             //Metro 신문사가 뉴스를 획득
             p.UpdateNews(news);

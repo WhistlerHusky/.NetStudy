@@ -2,25 +2,25 @@
 
 namespace NetSutdy.DesignPattern.Behavioral.Strategy
 {
-    public class StupidMarin : Unit, IWeapon
+    public abstract class AttackableUnit : Unit
     {
-        public StupidMarin()
-        {
-            _hp = 40;
-        }
+        protected IWeapon _weapon;
 
         public void Fire(Unit unit)
         {
-            int initDamage = 5;
-
-            unit.GotDamage(initDamage);
+            _weapon.Fire(unit);
         }
 
-        public void Attack(Unit unit)
+        public virtual void Attack(Unit unit)
         {
             //HP가 0이하로 내려가면 죽은거임.
             if (_hp <= 0)
             {
+                return;
+            }
+            if(unit.HP <= 0)
+            {
+                //이미 죽음
                 return;
             }
 
