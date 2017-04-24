@@ -2,7 +2,7 @@
 
 namespace NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush
 {
-    public class ObserverPatternPush : IRunner
+    public class ObserverPatternPushRunner : IRunner
     {
         public void Run()
         {

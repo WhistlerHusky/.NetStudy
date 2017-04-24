@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace NetStudy.Core
+﻿namespace NetStudy.Core
 {
     public interface IRunner
     {

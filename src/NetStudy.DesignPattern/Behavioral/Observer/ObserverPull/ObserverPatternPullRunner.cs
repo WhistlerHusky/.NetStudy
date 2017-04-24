@@ -2,7 +2,7 @@
 
 namespace NetSutdy.DesignPattern.Behavioral.Observer.ObserverPull
 {
-    public class ObserverPatternPull : IRunner
+    public class ObserverPatternPullRunner : IRunner
     {
         public void Run()
         {

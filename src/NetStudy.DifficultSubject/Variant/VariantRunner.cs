@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Reflection.Metadata;
 using NetStudy.Core;
 
 namespace NetStudy.DifficultSubject.Variant

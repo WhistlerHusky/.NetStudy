@@ -3,7 +3,7 @@ using NetStudy.Core;
 
 namespace NetSutdy.DesignPattern.Behavioral.Strategy
 {
-    public class StrategyPattern : IRunner
+    public class StrategyPatternRunner : IRunner
     {
         public void Run()
         {
