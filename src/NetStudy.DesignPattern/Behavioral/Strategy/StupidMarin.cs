@@ -2,9 +2,9 @@
 
 namespace NetSutdy.DesignPattern.Behavioral.Strategy
 {
-    public class StupidMarin : Unit, IWeapon
+    public class StupidMarine : Unit, IWeapon
     {
-        public StupidMarin()
+        public StupidMarine()
         {
             _hp = 40;
         }

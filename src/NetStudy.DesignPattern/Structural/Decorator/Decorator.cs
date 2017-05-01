@@ -6,6 +6,10 @@ namespace NetSutdy.DesignPattern.Structural.Decorator
     {
         protected AttackableUnit _attackableUnit;
 
+        public Decorator() : base()
+        {
+            
+        }
         protected Decorator(AttackableUnit attackableUnit)
         {
             _attackableUnit = attackableUnit;

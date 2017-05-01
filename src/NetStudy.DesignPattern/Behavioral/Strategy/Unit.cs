@@ -21,9 +21,13 @@ namespace NetSutdy.DesignPattern.Behavioral.Strategy
             }
         }
 
-        public void GotDamage(int damage)
+        public virtual void GotDamage(int damage)
         {
-            Console.WriteLine($"{Name} got attacked! {HP} -> {HP - damage}");
+            if (HP <= 0)
+            {
+                return;
+            }
+            Console.WriteLine($"{Name} got attacked! {HP} -> {((HP - damage) > 0 ? (HP - damage): 0)}");
             HP -= damage;
         }
     }

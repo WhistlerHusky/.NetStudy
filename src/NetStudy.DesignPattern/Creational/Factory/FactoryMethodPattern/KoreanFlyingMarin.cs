@@ -1,13 +1,17 @@
 ﻿using System;
 using NetSutdy.DesignPattern.Behavioral.Strategy;
 
-namespace NetSutdy.DesignPattern.Creational.Factory
+namespace NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern
 {
-    public class FlyingMarin : AttackableUnit
+    public class KoreanFlyingMarine : AttackableUnit
     {
-        public FlyingMarin(IWeapon weapon)
+        public KoreanFlyingMarine() : base()
         {
-            _hp = 60;
+        }
+
+        public KoreanFlyingMarine(IWeapon weapon)
+        {
+            _hp = 30;
 
             _weapon = weapon;
         }

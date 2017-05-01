@@ -5,6 +5,8 @@ using NetSutdy.DesignPattern.Behavioral.Observer.ObserverPull;
 using NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush;
 using NetSutdy.DesignPattern.Behavioral.Strategy;
 using NetSutdy.DesignPattern.Creational.Factory;
+using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern;
+using NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern;
 using NetSutdy.DesignPattern.Structural.Decorator;
 
 namespace NetStudy.Runner
@@ -20,7 +22,9 @@ namespace NetStudy.Runner
             //runner = new StrategyPatternRunner();
             //runner = new ChainOfResponsibilityRunner();
             //runner = new DecoratorRunner();
-            runner = new FactoryPatternRunner();
+            //runner = new SimpleFactoryPatternRunner();
+            //runner = new FactoryMethodPatternRunner();
+            runner = new AbstractFactoryMethodPatternRunner();
             
             runner.Run();
         }

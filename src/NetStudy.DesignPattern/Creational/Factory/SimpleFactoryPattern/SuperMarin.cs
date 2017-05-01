@@ -1,11 +1,11 @@
 ﻿using System;
 using NetSutdy.DesignPattern.Behavioral.Strategy;
 
-namespace NetSutdy.DesignPattern.Creational.Factory
+namespace NetSutdy.DesignPattern.Creational.Factory.SimpleFactoryPattern
 {
-    public class SuperMarin : AttackableUnit
+    public class SuperMarine : AttackableUnit
     {
-        public SuperMarin(IWeapon weapon)
+        public SuperMarine(IWeapon weapon)
         {
             _hp = 60;
 

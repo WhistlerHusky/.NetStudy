@@ -14,11 +14,11 @@ public interface IWeapon
 
 멍청한 마린은 IWeapon을 구현을 하였기 때문에,
 ```cs
-public class StupidMarin : Unit, IWeapon
+public class StupidMarine : Unit, IWeapon
 ```
-추후에 바꿔주려면 StupidMarin 클래스 자체를 수정해야 한다.
+추후에 바꿔주려면 StupidMarine 클래스 자체를 수정해야 한다.
 ```cs
-public class StupidMarin : Unit, IWeapon
+public class StupidMarine : Unit, IWeapon
 {
             .
             .
@@ -39,7 +39,7 @@ public class AttackableUnit : Unit
            .
            .
 }
-public class SmartMarin : AttackableUnit
+public class SmartMarine : AttackableUnit
 {
 }
 ```
@@ -58,7 +58,7 @@ public class Gun : IWeapon
 생성자나, 프라퍼티 혹은 메서드를 통해 교체해주면 된다.
 ```cs
 IWeapon gun = new Gun();
-SmartMarin smartMarin = new SmartMarin(gun);
+SmartMarine smartMarine = new SmartMarine(gun);
 ```
 추후 업데이트로 마린이 다른무기도 사용가능하게 될 경우, 해당 마린 클래스를 수정하지않고, IWeapon을 구현하는 무기를 만들어서
 ```cs
@@ -74,7 +74,7 @@ public class LaserGun : IWeapon
 ```
 이렇게 무기만 바꿔주면 된다.
 ```cs
-smartMarin.ChangeWeapon(new LaserGun());
+smartMarine.ChangeWeapon(new LaserGun());
 ```
 
 무기 바꾸는 메소드

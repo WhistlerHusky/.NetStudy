@@ -1,10 +1,16 @@
 ﻿using System;
+using System.Threading;
 
 namespace NetSutdy.DesignPattern.Behavioral.Strategy
 {
     public abstract class AttackableUnit : Unit
     {
         protected IWeapon _weapon;
+
+        protected AttackableUnit()
+        {
+            _weapon = new Gun();
+        }
 
         public void Fire(Unit unit)
         {

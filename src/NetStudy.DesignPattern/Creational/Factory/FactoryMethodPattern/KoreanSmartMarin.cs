@@ -1,16 +1,17 @@
 ﻿using System;
+using NetSutdy.DesignPattern.Behavioral.Strategy;
 
-namespace NetSutdy.DesignPattern.Behavioral.Strategy
+namespace NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern
 {
-    public class SmartMarine : AttackableUnit
+    public class KoreanSmartMarine : AttackableUnit
     {
-        public SmartMarine() : base()
-        {
-        }
-        public SmartMarine(IWeapon weapon)
+        public KoreanSmartMarine() : base()
         {
             _hp = 40;
+        }
 
+        public KoreanSmartMarine(IWeapon weapon) : this()
+        {
             _weapon = weapon;
         }
 
