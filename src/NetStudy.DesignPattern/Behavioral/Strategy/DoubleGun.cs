@@ -1,4 +1,6 @@
-﻿namespace NetSutdy.DesignPattern.Behavioral.Strategy
+﻿using NetSutdy.DesignPattern.Shared;
+
+namespace NetSutdy.DesignPattern.Behavioral.Strategy
 {
     public class DoubleGun : IWeapon
     {

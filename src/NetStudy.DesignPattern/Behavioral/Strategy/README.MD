@@ -74,12 +74,12 @@ public class LaserGun : IWeapon
 ```
 이렇게 무기만 바꿔주면 된다.
 ```cs
-smartMarine.ChangeWeapon(new LaserGun());
+smartMarine.SetWeapon(new LaserGun());
 ```
 
 무기 바꾸는 메소드
 ```cs
-public void ChangeWeapon(IWeapon weapon)
+public void SetWeapon(IWeapon weapon)
 {
     _weapon = weapon;
 }

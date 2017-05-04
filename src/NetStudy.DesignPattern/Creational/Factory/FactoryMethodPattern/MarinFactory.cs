@@ -5,7 +5,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern
 {
     public abstract class MarineFactory
     {
-        public AttackableUnit CreateNewMarin(string marineType)
+        public AttackableUnit CreateNewMarine(string marineType)
         {
             var marine = CreateMarine(marineType);
             marine.HP = 40;

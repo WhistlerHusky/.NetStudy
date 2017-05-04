@@ -1,5 +1,4 @@
-﻿using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern;
-using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.MarineSettingFactory;
+﻿using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.MarineSettingFactory;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Marines
 {
@@ -10,10 +9,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern
         public UsaFlyingMarine(IMarineSettingFactory marineSettingFactory)
         {
             _marineSettingFactory = marineSettingFactory;
-        }
 
-        public override void GetReadyToFight()
-        {
             _weapon = _marineSettingFactory.GetWeapon();
             _bulletProofVest = _marineSettingFactory.GetBulletProofVest();
         }

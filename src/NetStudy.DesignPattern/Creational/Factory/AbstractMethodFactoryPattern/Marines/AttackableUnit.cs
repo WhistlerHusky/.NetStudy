@@ -1,6 +1,6 @@
 ﻿using System;
-using NetSutdy.DesignPattern.Behavioral.Strategy;
 using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Bulletproofvest;
+using NetSutdy.DesignPattern.Shared;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Marines
 {
@@ -8,7 +8,6 @@ namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern
     {
         protected IWeapon _weapon;
         protected IBulletProofVest _bulletProofVest;
-        public abstract void GetReadyToFight();
 
         public virtual void SetInitialHP()
         {
@@ -46,6 +45,32 @@ namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern
             Console.WriteLine($"{Name} attacks {unit.Name}");
 
             Fire(unit);
+        }
+        
+        public void SetWeapon(IWeapon weapon)
+        {
+            Console.WriteLine($"{Name} changed weapon - {weapon.GetType().Name}");
+            _weapon = weapon;
+        }
+
+        public IWeapon GetWeapon()
+        {
+            return _weapon;
+        }
+
+        public IBulletProofVest GetBulletProofVest()
+        {
+            return _bulletProofVest;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="bulletProofVest"></param>
+        public void SetBulletProofVest(IBulletProofVest bulletProofVest)
+        {
+            Console.WriteLine($"{Name} changed bullet proof vest - {bulletProofVest.GetType().Name}");
+            _bulletProofVest = bulletProofVest;
         }
     }
 }

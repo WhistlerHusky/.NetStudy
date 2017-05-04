@@ -14,9 +14,9 @@ namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern
             MarineFactory koreanMarineFactory = new KoreanMarineFactory();
             MarineFactory usaMarineFactory = new UsaMarineFactory();
             
-            var koreanMarine1 = koreanMarineFactory.CreateNewMarin("1");
+            var koreanMarine1 = koreanMarineFactory.CreateNewMarine("1");
             koreanMarine1.Name = "Marine_K";
-            var usaMarine = usaMarineFactory.CreateNewMarin("1");
+            var usaMarine = usaMarineFactory.CreateNewMarine("1");
             usaMarine.Name = "Marine_U";
 
             Console.WriteLine(koreanMarine1.GetType().Name);

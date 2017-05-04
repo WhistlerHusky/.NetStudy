@@ -17,7 +17,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern
                     marine = new KoreanFlyingMarine(marineSettingFactory);
                     break;
                 case "2":
-                    marine = new KoreanSmartMarine(marineSettingFactory);
+                    marine = new KoreanFactorySmartMarine(marineSettingFactory);
                     break;
                 default:
                     throw new NotImplementedException("There are only 2 types, 1 and 2");

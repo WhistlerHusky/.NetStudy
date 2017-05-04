@@ -1,6 +1,7 @@
 ﻿using System;
 using NetStudy.Core;
 using NetSutdy.DesignPattern.Behavioral.Strategy;
+using NetSutdy.DesignPattern.Shared;
 
 namespace NetSutdy.DesignPattern.Structural.Decorator
 {

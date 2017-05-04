@@ -1,11 +1,11 @@
 ﻿
-namespace NetSutdy.DesignPattern.Behavioral.Strategy
+namespace NetSutdy.DesignPattern.Shared
 {
-    public class Gun : IWeapon
+    public class LaserGun : IWeapon
     {
         public void Fire(Unit unit)
         {
-            int initDamage = 5;
+            int initDamage = 8;
 
             unit.GotDamage(initDamage);
         }

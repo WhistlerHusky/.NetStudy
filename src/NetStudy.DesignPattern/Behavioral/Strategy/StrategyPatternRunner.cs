@@ -1,5 +1,6 @@
 ﻿using System;
 using NetStudy.Core;
+using NetSutdy.DesignPattern.Shared;
 
 namespace NetSutdy.DesignPattern.Behavioral.Strategy
 {
@@ -37,7 +38,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Strategy
 
             //이상태로 가면 똑똑한 마린이 질꺼같아서 무기를 바꿈.
             //이부분이 Strategy pattern의 핵심!
-            smartMarine.ChangeWeapon(new LaserGun());
+            smartMarine.SetWeapon(new LaserGun());
 
             //다시 죽을때까지 싸움.
             while (stupidMarine.HP > 0 && smartMarine.HP > 0)

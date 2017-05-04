@@ -69,8 +69,8 @@ public class FactoryMethodPatternRunner : IRunner
         MarineFactory koreanMarineFactory = new KoreanMarineFactory();
         MarineFactory usaMarineFactory = new UsaMarineFactory();
         
-        var koreanMarine1 = koreanMarineFactory.CreateNewMarin("1");
-        var usaMarine = usaMarineFactory.CreateNewMarin("1");
+        var koreanMarine1 = koreanMarineFactory.CreateNewMarine("1");
+        var usaMarine = usaMarineFactory.CreateNewMarine("1");
 
         Console.WriteLine(koreanMarine1.GetType().Name);
         Console.WriteLine(usaMarine.GetType().Name);
@@ -88,7 +88,7 @@ public class FactoryMethodPatternRunner : IRunner
 매번 마린을 생성하는 코드에서 반복되는 코드를 해결 할 수 있다.
 e.g. 마린 hp 설정.
 ```cs
-public AttackableUnit CreateNewMarin(string marineType)
+public AttackableUnit CreateNewMarine(string marineType)
 {
     var marine = CreateMarine(marineType);
     marine.HP = 40;

@@ -1,8 +1,6 @@
-﻿using System;
-using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Marines;
-using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.MarineSettingFactory;
+﻿using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.MarineSettingFactory;
 
-namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern
+namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Marines
 {
     public class UsaSmartMarine : AttackableUnit
     {
@@ -11,10 +9,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern
         public UsaSmartMarine(IMarineSettingFactory marineSettingFactory)
         {
             _marineSettingFactory = marineSettingFactory;
-        }
 
-        public override void GetReadyToFight()
-        {
             _weapon = _marineSettingFactory.GetWeapon();
             _bulletProofVest = _marineSettingFactory.GetBulletProofVest();
         }

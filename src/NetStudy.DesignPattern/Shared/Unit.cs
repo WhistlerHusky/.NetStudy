@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetSutdy.DesignPattern.Behavioral.Strategy
+namespace NetSutdy.DesignPattern.Shared
 {
     public class Unit
     {

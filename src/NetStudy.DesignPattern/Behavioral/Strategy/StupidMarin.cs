@@ -1,4 +1,5 @@
 ﻿using System;
+using NetSutdy.DesignPattern.Shared;
 
 namespace NetSutdy.DesignPattern.Behavioral.Strategy
 {

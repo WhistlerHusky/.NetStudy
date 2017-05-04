@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Threading;
+using NetSutdy.DesignPattern.Shared;
 
 namespace NetSutdy.DesignPattern.Behavioral.Strategy
 {
@@ -33,6 +33,17 @@ namespace NetSutdy.DesignPattern.Behavioral.Strategy
             Console.WriteLine($"{Name} attacks {unit.Name}");
 
             Fire(unit);
+        }
+
+
+        /// <summary>
+        /// 이부분이 Strategy 패턴의 핵심이다.
+        /// </summary>
+        /// <param name="weapon"></param>
+        public void SetWeapon(IWeapon weapon)
+        {
+            Console.WriteLine($"{Name} changes weapon from {_weapon.GetType().Name} -> {weapon.GetType().Name}");
+            _weapon = weapon;
         }
     }
 }
