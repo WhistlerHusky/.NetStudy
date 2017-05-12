@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A21A5882-83EA-4E47-BC63-8E9F76EA481E}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStudy.Core", "src\NetStudy.Core\NetStudy.Core.csproj", "{65B789D0-619F-4104-A715-94D6F2F2752F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStudy.DifficultSubject", "src\NetStudy.DifficultSubject\NetStudy.DifficultSubject.csproj", "{D3946553-A695-4E21-B6DF-C5120F1BB82C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStudy.EnterpriseApplicationArchitecture", "src\NetStudy.EnterpriseApplicationArchitecture\NetStudy.EnterpriseApplicationArchitecture.csproj", "{EA525353-8633-40A6-9B6C-A62F63960B85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{D3946553-A695-4E21-B6DF-C5120F1BB82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3946553-A695-4E21-B6DF-C5120F1BB82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3946553-A695-4E21-B6DF-C5120F1BB82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA525353-8633-40A6-9B6C-A62F63960B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA525353-8633-40A6-9B6C-A62F63960B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA525353-8633-40A6-9B6C-A62F63960B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA525353-8633-40A6-9B6C-A62F63960B85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +50,6 @@ Global
 		{9BE646FD-C784-4BC5-BFEE-74BE27CF0D95} = {A21A5882-83EA-4E47-BC63-8E9F76EA481E}
 		{65B789D0-619F-4104-A715-94D6F2F2752F} = {A21A5882-83EA-4E47-BC63-8E9F76EA481E}
 		{D3946553-A695-4E21-B6DF-C5120F1BB82C} = {A21A5882-83EA-4E47-BC63-8E9F76EA481E}
+		{EA525353-8633-40A6-9B6C-A62F63960B85} = {A21A5882-83EA-4E47-BC63-8E9F76EA481E}
 	EndGlobalSection
 EndGlobal
