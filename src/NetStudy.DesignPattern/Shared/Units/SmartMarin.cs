@@ -7,6 +7,10 @@ namespace NetSutdy.DesignPattern.Shared.Units
         public SmartMarine() : base()
         {
         }
+        public SmartMarine(string name) : base()
+        {
+            Name = name;
+        }
         public SmartMarine(IWeapon weapon)
         {
             _hp = 40;

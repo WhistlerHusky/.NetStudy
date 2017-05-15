@@ -14,6 +14,7 @@ using NetSutdy.DesignPattern.Structural.Adapter;
 using NetSutdy.DesignPattern.Structural.Bridge;
 using NetSutdy.DesignPattern.Structural.Composite;
 using NetSutdy.DesignPattern.Structural.Decorator;
+using NetSutdy.DesignPattern.Structural.Facade;
 
 namespace NetStudy.Runner
 {
@@ -50,7 +51,9 @@ namespace NetStudy.Runner
             //runner.Run();
             //runner = new BridgePatternRunner();
             //runner.Run();
-            runner = new CompositePatternRunner();
+            //runner = new CompositePatternRunner();
+            //runner.Run();
+            runner = new FacadePatternRunner();
             runner.Run();
         }
     }

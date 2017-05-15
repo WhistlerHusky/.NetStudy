@@ -1,8 +1,6 @@
-﻿using NetSutdy.DesignPattern.Shared;
-using NetSutdy.DesignPattern.Shared.Units;
-using NetSutdy.DesignPattern.Shared.Weapon;
+﻿using NetSutdy.DesignPattern.Shared.Units;
 
-namespace NetSutdy.DesignPattern.Behavioral.Strategy
+namespace NetSutdy.DesignPattern.Shared.Weapon
 {
     public class DoubleGun : IWeapon
     {
