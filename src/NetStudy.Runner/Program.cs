@@ -10,6 +10,7 @@ using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern;
 using NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern;
 using NetSutdy.DesignPattern.Creational.Prototype;
 using NetSutdy.DesignPattern.Creational.Singleton;
+using NetSutdy.DesignPattern.Structural.Adapter;
 using NetSutdy.DesignPattern.Structural.Decorator;
 
 namespace NetStudy.Runner
@@ -30,7 +31,9 @@ namespace NetStudy.Runner
             //runner = new AbstractFactoryMethodPatternRunner();
             //runner = new BuilderPatternRunner();
             //runner = new SingletonPatternRunner();
-            runner = new PrototypePatternRunner();
+            //runner = new PrototypePatternRunner();
+            runner = new AdapterRunner();
+
             runner.Run();
         }
     }
