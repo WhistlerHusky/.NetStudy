@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Bulletproofvest
+﻿namespace NetSutdy.DesignPattern.Shared.Bulletproofvest
 {
     public class UsaBulletProofVest : IBulletProofVest
     {

@@ -1,5 +1,5 @@
 ﻿using NetSutdy.DesignPattern.Behavioral.Strategy;
-using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Bulletproofvest;
+using NetSutdy.DesignPattern.Shared.Bulletproofvest;
 
 namespace NetSutdy.DesignPattern.Creational.Builder
 {

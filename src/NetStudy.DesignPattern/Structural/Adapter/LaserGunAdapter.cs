@@ -1,7 +1,7 @@
 ﻿using System.CodeDom;
 using System.Net;
-using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Bulletproofvest;
 using NetSutdy.DesignPattern.Shared;
+using NetSutdy.DesignPattern.Shared.Weapon;
 
 namespace NetSutdy.DesignPattern.Structural.Adapter
 {

@@ -1,4 +1,5 @@
 ﻿using NetSutdy.DesignPattern.Behavioral.Strategy;
+using NetSutdy.DesignPattern.Shared;
 
 namespace NetSutdy.DesignPattern.Structural.Decorator
 {
@@ -6,7 +7,7 @@ namespace NetSutdy.DesignPattern.Structural.Decorator
     {
         protected AttackableUnit _attackableUnit;
 
-        public Decorator() : base()
+        protected Decorator() : base()
         {
             
         }

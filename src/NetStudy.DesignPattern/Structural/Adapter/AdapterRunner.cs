@@ -1,8 +1,5 @@
-﻿using System;
-using NetStudy.Core;
-using NetSutdy.DesignPattern.Behavioral.Strategy;
-using NetSutdy.DesignPattern.Shared;
-using NetSutdy.DesignPattern.Structural.Decorator;
+﻿using NetStudy.Core;
+using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Structural.Adapter
 {

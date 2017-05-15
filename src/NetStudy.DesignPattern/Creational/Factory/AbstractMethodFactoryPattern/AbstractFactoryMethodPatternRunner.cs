@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using NetStudy.Core;
 using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Marines;
+using NetSutdy.DesignPattern.Shared;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern
 {

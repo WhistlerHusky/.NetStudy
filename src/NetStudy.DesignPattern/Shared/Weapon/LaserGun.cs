@@ -1,5 +1,5 @@
 ﻿
-namespace NetSutdy.DesignPattern.Shared
+namespace NetSutdy.DesignPattern.Shared.Weapon
 {
     public class LaserGun : IWeapon
     {

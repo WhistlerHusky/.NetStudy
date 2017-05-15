@@ -1,7 +1,6 @@
-﻿using System;
-using NetSutdy.DesignPattern.Shared;
+﻿using NetSutdy.DesignPattern.Shared.Weapon;
 
-namespace NetSutdy.DesignPattern.Behavioral.Strategy
+namespace NetSutdy.DesignPattern.Shared.Units
 {
     public class SmartMarine : AttackableUnit
     {

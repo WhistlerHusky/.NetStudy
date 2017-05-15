@@ -1,7 +1,6 @@
 ﻿using System;
-using NetSutdy.DesignPattern.Behavioral.Strategy;
-using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Bulletproofvest;
-using NetSutdy.DesignPattern.Shared;
+using NetSutdy.DesignPattern.Shared.Bulletproofvest;
+using NetSutdy.DesignPattern.Shared.Weapon;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.MarineSettingFactory
 {

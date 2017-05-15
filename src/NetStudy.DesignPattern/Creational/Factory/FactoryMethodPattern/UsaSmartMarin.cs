@@ -1,10 +1,10 @@
-﻿using System;
-using NetSutdy.DesignPattern.Behavioral.Strategy;
-using NetSutdy.DesignPattern.Shared;
+﻿using NetSutdy.DesignPattern.Shared;
+using NetSutdy.DesignPattern.Shared.Weapon;
+using AttackableUnit = NetSutdy.DesignPattern.Shared.AttackableUnit;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern
 {
-    public class UsaSmartMarine : AttackableUnit
+    public class UsaSmartMarine : Shared.AttackableUnit
     {
         public UsaSmartMarine() 
         {

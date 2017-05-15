@@ -1,6 +1,7 @@
 ﻿using System;
 using NetSutdy.DesignPattern.Behavioral.Strategy;
 using NetSutdy.DesignPattern.Shared;
+using NetSutdy.DesignPattern.Shared.Weapon;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.SimpleFactoryPattern
 {
