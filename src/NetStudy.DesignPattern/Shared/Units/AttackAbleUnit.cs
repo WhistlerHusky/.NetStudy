@@ -2,7 +2,7 @@
 using NetSutdy.DesignPattern.Shared.Bulletproofvest;
 using NetSutdy.DesignPattern.Shared.Weapon;
 
-namespace NetSutdy.DesignPattern.Shared
+namespace NetSutdy.DesignPattern.Shared.Units
 {
     public abstract class AttackableUnit : Unit
     {
@@ -24,7 +24,7 @@ namespace NetSutdy.DesignPattern.Shared
             base.GotDamage(damage);
         }
 
-        public void Fire(Unit unit)
+        public virtual void Fire(Unit unit)
         {
             _weapon.Fire(unit);
         }

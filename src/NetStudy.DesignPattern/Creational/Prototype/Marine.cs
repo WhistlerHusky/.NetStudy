@@ -1,5 +1,6 @@
 ﻿using NetSutdy.DesignPattern.Behavioral.Strategy;
 using NetSutdy.DesignPattern.Shared;
+using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Creational.Prototype
 {

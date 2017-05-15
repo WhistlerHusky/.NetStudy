@@ -1,4 +1,6 @@
 ﻿
+using NetSutdy.DesignPattern.Shared.Units;
+
 namespace NetSutdy.DesignPattern.Shared.Weapon
 {
     public class Gun : IWeapon

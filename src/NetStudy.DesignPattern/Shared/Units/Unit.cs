@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetSutdy.DesignPattern.Shared
+namespace NetSutdy.DesignPattern.Shared.Units
 {
     public class Unit
     {

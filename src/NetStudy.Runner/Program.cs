@@ -12,6 +12,7 @@ using NetSutdy.DesignPattern.Creational.Prototype;
 using NetSutdy.DesignPattern.Creational.Singleton;
 using NetSutdy.DesignPattern.Structural.Adapter;
 using NetSutdy.DesignPattern.Structural.Bridge;
+using NetSutdy.DesignPattern.Structural.Composite;
 using NetSutdy.DesignPattern.Structural.Decorator;
 
 namespace NetStudy.Runner
@@ -21,34 +22,35 @@ namespace NetStudy.Runner
         static void Main(string[] args)
         {
             IRunner runner;
-            runner = new VariantRunner();
-            runner.Run();
-            runner = new ObserverPatternPullRunner();
-            runner.Run();
-            runner = new ObserverPatternPushRunner();
-            runner.Run();
-            runner = new StrategyPatternRunner();
-            runner.Run();
-            runner = new ChainOfResponsibilityRunner();
-            runner.Run();
-            runner = new DecoratorRunner();
-            runner.Run();
-            runner = new SimpleFactoryPatternRunner();
-            runner.Run();
-            runner = new FactoryMethodPatternRunner();
-            runner.Run();
-            runner = new AbstractFactoryMethodPatternRunner();
-            runner.Run();
-            runner = new BuilderPatternRunner();
-            runner.Run();
-            runner = new SingletonPatternRunner();
-            runner.Run();
-            runner = new PrototypePatternRunner();
-            runner.Run();
-            runner = new AdapterRunner();
-            runner.Run();
-            runner = new BridgePatternRunner();
-
+            //runner = new VariantRunner();
+            //runner.Run();
+            //runner = new ObserverPatternPullRunner();
+            //runner.Run();
+            //runner = new ObserverPatternPushRunner();
+            //runner.Run();
+            //runner = new StrategyPatternRunner();
+            //runner.Run();
+            //runner = new ChainOfResponsibilityRunner();
+            //runner.Run();
+            //runner = new DecoratorPatternRunner();
+            //runner.Run();
+            //runner = new SimpleFactoryPatternRunner();
+            //runner.Run();
+            //runner = new FactoryMethodPatternRunner();
+            //runner.Run();
+            //runner = new AbstractFactoryMethodPatternRunner();
+            //runner.Run();
+            //runner = new BuilderPatternRunner();
+            //runner.Run();
+            //runner = new SingletonPatternRunner();
+            //runner.Run();
+            //runner = new PrototypePatternRunner();
+            //runner.Run();
+            //runner = new AdapterPatternRunner();
+            //runner.Run();
+            //runner = new BridgePatternRunner();
+            //runner.Run();
+            runner = new CompositePatternRunner();
             runner.Run();
         }
     }

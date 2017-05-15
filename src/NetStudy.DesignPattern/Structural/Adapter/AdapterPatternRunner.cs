@@ -3,7 +3,7 @@ using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Structural.Adapter
 {
-    public class AdapterRunner : IRunner
+    public class AdapterPatternRunner : IRunner
     {
         public void Run()
         {

@@ -5,7 +5,7 @@ using NetSutdy.DesignPattern.Shared.Weapon;
 
 namespace NetSutdy.DesignPattern.Structural.Decorator
 {
-    public class DecoratorRunner : IRunner
+    public class DecoratorPatternRunner : IRunner
     {
         public void Run()
         {
@@ -42,16 +42,16 @@ namespace NetSutdy.DesignPattern.Structural.Decorator
             Decorator stimpackMarine = new Stimpack(smartMarine);
 
             //다시 죽을때까지 싸움.
-            while (stupidMarine.HP > 0 && smartMarine.HP > 0)
+            while (stupidMarine.HP > 0 && stimpackMarine.HP > 0)
             {
-                stupidMarine.Attack(smartMarine);
+                stupidMarine.Attack(stimpackMarine);
                 Console.WriteLine();
 
                 stimpackMarine.Attack(stupidMarine);
                 Console.WriteLine();
             }
 
-            var winner = stupidMarine.HP > 0 ? stupidMarine.Name : smartMarine.Name;
+            var winner = stupidMarine.HP > 0 ? stupidMarine.Name : stimpackMarine.Name;
 
             Console.WriteLine($"The winner is {winner}");
         }

@@ -1,10 +1,10 @@
 ﻿using NetSutdy.DesignPattern.Shared;
 using NetSutdy.DesignPattern.Shared.Weapon;
-using AttackableUnit = NetSutdy.DesignPattern.Shared.AttackableUnit;
+using AttackableUnit = NetSutdy.DesignPattern.Shared.Units.AttackableUnit;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern
 {
-    public class UsaFlyingMarine : Shared.AttackableUnit
+    public class UsaFlyingMarine : Shared.Units.AttackableUnit
     {
         public UsaFlyingMarine() : base()
         {

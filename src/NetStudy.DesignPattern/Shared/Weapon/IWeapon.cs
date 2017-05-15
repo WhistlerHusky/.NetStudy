@@ -1,4 +1,6 @@
-﻿namespace NetSutdy.DesignPattern.Shared.Weapon
+﻿using NetSutdy.DesignPattern.Shared.Units;
+
+namespace NetSutdy.DesignPattern.Shared.Weapon
 {
     public interface IWeapon
     {

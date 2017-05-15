@@ -1,6 +1,6 @@
 ﻿using System;
 using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.MarineSettingFactory;
-using NetSutdy.DesignPattern.Shared;
+using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Marines
 {
@@ -8,7 +8,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern
     {
         public override AttackableUnit CreateMarine(string marineType)
         {
-            AttackableUnit marine = null;
+            AttackableUnit marine;
 
             IMarineSettingFactory marineSettingFactory = new KoreanMarineSettingFactory();
 

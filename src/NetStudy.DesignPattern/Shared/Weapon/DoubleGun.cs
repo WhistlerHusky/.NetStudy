@@ -1,4 +1,5 @@
 ﻿using NetSutdy.DesignPattern.Shared;
+using NetSutdy.DesignPattern.Shared.Units;
 using NetSutdy.DesignPattern.Shared.Weapon;
 
 namespace NetSutdy.DesignPattern.Behavioral.Strategy
