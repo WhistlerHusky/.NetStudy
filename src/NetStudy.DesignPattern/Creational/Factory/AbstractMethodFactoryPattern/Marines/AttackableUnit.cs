@@ -9,9 +9,9 @@
 //        protected IWeapon _weapon;
 //        protected IBulletProofVest _bulletProofVest;
 
-//        public virtual void SetInitialHP()
+//        public virtual void SetInitialCurrentHp()
 //        {
-//            HP = 40;
+//            CurrentHp = 40;
 //        }
 
 //        public override void GotDamage(int damage)
@@ -31,12 +31,12 @@
 
 //        public virtual void Attack(Unit unit)
 //        {
-//            //HP가 0이하로 내려가면 죽은거임.
-//            if (_hp <= 0)
+//            //CurrentHp가 0이하로 내려가면 죽은거임.
+//            if (_currentHp <= 0)
 //            {
 //                return;
 //            }
-//            if(unit.HP <= 0)
+//            if(unit.CurrentHp <= 0)
 //            {
 //                //이미 죽음
 //                return;

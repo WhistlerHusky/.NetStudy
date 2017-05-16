@@ -4,17 +4,20 @@ namespace NetSutdy.DesignPattern.Shared.Units
 {
     public class Unit
     {
+        protected int _currentHp;
+
         public string Name { get; set; }
 
-        protected int _hp;
-        public int HP
+        public int MaxHp { get; set; }
+
+        public int CurrentHp
         {
-            get => _hp;
+            get => _currentHp;
 
             set
             {
-                _hp = value;
-                if (_hp <= 0)
+                _currentHp = value;
+                if (_currentHp <= 0)
                 {
                     Console.WriteLine($"{Name} died");
                 }
@@ -23,12 +26,12 @@ namespace NetSutdy.DesignPattern.Shared.Units
 
         public virtual void GotDamage(int damage)
         {
-            if (HP <= 0)
+            if (CurrentHp <= 0)
             {
                 return;
             }
-            Console.WriteLine($"{Name} got attacked! {HP} -> {((HP - damage) > 0 ? (HP - damage): 0)}");
-            HP -= damage;
+            Console.WriteLine($"{Name} got attacked! {CurrentHp} -> {((CurrentHp - damage) > 0 ? (CurrentHp - damage): 0)}");
+            CurrentHp -= damage;
         }
     }
 }

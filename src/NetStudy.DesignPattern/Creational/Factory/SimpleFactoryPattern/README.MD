@@ -28,7 +28,7 @@ Strategey pattern에서는 마린 생성부분을 하드코드로 해뒀지만 �
  {
      public SuperMarine(IWeapon weapon)
      {
-         _hp = 60;
+         _currentHp = 60;
 
          _weapon = weapon;
      }
@@ -117,7 +117,7 @@ public void Run()
     AttackableUnitMarineA = CreateMarine("Marine A");
     AttackableUnitMarineB = CreateMarine("Marine B");
 
-    while (MarineA.HP > 0 &&MarineB.HP > 0)
+    while (MarineA.CurrentHp > 0 &&MarineB.CurrentHp > 0)
     {
        MarineA.Attack(MarineB);
         Console.WriteLine();
@@ -126,7 +126,7 @@ public void Run()
         Console.WriteLine();
     }
 
-    var winner =MarineA.HP > 0 ?MarineA.Name :MarineB.Name;
+    var winner =MarineA.CurrentHp > 0 ?MarineA.Name :MarineB.Name;
 
     Console.WriteLine($"The winner is {winner}");
 }

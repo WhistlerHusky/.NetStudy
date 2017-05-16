@@ -13,7 +13,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern
 
         public UsaSmartMarine(IWeapon weapon)
         {
-            _hp = 40;
+            _currentHp = 40;
 
             _weapon = weapon;
         }

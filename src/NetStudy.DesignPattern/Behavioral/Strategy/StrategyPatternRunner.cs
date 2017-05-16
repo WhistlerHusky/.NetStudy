@@ -30,7 +30,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Strategy
             Console.WriteLine();
 
             //둘중 하나체력이 15 이하가 되는동안 반복해서 싸움.
-            while (stupidMarine.HP > 15 && smartMarine.HP > 15)
+            while (stupidMarine.CurrentHp > 15 && smartMarine.CurrentHp > 15)
             {
                 stupidMarine.Attack(smartMarine);
                 Console.WriteLine();
@@ -45,7 +45,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Strategy
             smartMarine.SetWeapon(new LaserGun());
 
             //다시 죽을때까지 싸움.
-            while (stupidMarine.HP > 0 && smartMarine.HP > 0)
+            while (stupidMarine.CurrentHp > 0 && smartMarine.CurrentHp > 0)
             {
                 stupidMarine.Attack(smartMarine);
                 Console.WriteLine();
@@ -54,7 +54,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Strategy
                 Console.WriteLine();
             }
 
-            var winner = stupidMarine.HP > 0 ? stupidMarine.Name : smartMarine.Name;
+            var winner = stupidMarine.CurrentHp > 0 ? stupidMarine.Name : smartMarine.Name;
 
             Console.WriteLine($"The winner is {winner}");
         }

@@ -20,7 +20,7 @@ namespace NetSutdy.DesignPattern.Structural.Composite
             SmartMarine smartMarineB = new SmartMarine(gun);
             smartMarineB.Name = "Smart Marine B";
             //둘중 하나체력이 15 이하가 되는동안 반복해서 싸움.
-            while (stupidMarine.HP > 15 && smartMarineB.HP > 15)
+            while (stupidMarine.CurrentHp > 15 && smartMarineB.CurrentHp > 15)
             {
                 stupidMarine.Attack(smartMarineB);
                 Console.WriteLine();

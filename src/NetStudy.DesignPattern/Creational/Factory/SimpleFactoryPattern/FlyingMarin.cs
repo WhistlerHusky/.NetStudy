@@ -10,7 +10,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.SimpleFactoryPattern
     {
         public FlyingMarine(IWeapon weapon)
         {
-            _hp = 60;
+            _currentHp = 60;
 
             _weapon = weapon;
         }

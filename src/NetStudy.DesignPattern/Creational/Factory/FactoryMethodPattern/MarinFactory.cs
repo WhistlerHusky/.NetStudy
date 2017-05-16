@@ -9,7 +9,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern
         public AttackableUnit CreateNewMarine(string marineType)
         {
             var marine = CreateMarine(marineType);
-            marine.HP = 40;
+            marine.CurrentHp = 40;
 
             return marine;
         }

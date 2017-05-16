@@ -12,7 +12,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern
 
         public KoreanFlyingMarine(IWeapon weapon)
         {
-            _hp = 30;
+            _currentHp = 30;
 
             _weapon = weapon;
         }

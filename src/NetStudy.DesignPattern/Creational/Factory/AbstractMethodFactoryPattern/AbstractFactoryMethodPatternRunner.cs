@@ -24,7 +24,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern
             Console.WriteLine(koreanMarine1.GetType().Name);
             Console.WriteLine(usaMarine.GetType().Name);
 
-            while (koreanMarine1.HP > 0 && usaMarine.HP > 0)
+            while (koreanMarine1.CurrentHp > 0 && usaMarine.CurrentHp > 0)
             {
                 koreanMarine1.Attack(usaMarine);
                 Console.WriteLine();
@@ -33,7 +33,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern
                 Console.WriteLine();
             }
 
-            var winner = koreanMarine1.HP > 0 ? koreanMarine1.Name : usaMarine.Name;
+            var winner = koreanMarine1.CurrentHp > 0 ? koreanMarine1.Name : usaMarine.Name;
 
             Console.WriteLine($"The winner is {winner}");
 

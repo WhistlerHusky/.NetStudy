@@ -8,7 +8,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern
     {
         public KoreanSmartMarine() : base()
         {
-            _hp = 40;
+            _currentHp = 40;
         }
 
         public KoreanSmartMarine(IWeapon weapon) : this()

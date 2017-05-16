@@ -7,7 +7,7 @@ namespace NetSutdy.DesignPattern.Shared.Units
     {
         public StupidMarine()
         {
-            _hp = 40;
+            _currentHp = 40;
             _weapon = new Gun();
         }
         
@@ -20,8 +20,8 @@ namespace NetSutdy.DesignPattern.Shared.Units
 
         public override void Attack(Unit unit)
         {
-            //HP가 0이하로 내려가면 죽은거임.
-            if (_hp <= 0)
+            //CurrentHp가 0이하로 내려가면 죽은거임.
+            if (_currentHp <= 0)
             {
                 return;
             }

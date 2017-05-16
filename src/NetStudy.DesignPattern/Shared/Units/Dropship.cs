@@ -6,7 +6,7 @@ namespace NetSutdy.DesignPattern.Shared.Units
     {
         public Dropship()
         {
-            _hp = 80;
+            _currentHp = 80;
         }
     }
 }

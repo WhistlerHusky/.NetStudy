@@ -86,12 +86,12 @@ public class FactoryMethodPatternRunner : IRunner
 
 위 코드에서는 생성만 팩토리 메소드 패턴으로 구현하였지만, 생성후에 매번 처리해야 하는 코드를 팩토리에 넣어주면,
 매번 마린을 생성하는 코드에서 반복되는 코드를 해결 할 수 있다.
-e.g. 마린 hp 설정.
+e.g. 마린 currentHp 설정.
 ```cs
 public AttackableUnit CreateNewMarine(string marineType)
 {
     var marine = CreateMarine(marineType);
-    marine.HP = 40;
+    marine.CurrentHp = 40;
 
     return marine;
 }

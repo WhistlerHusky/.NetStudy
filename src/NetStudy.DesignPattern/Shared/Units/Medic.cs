@@ -7,7 +7,8 @@ namespace NetSutdy.DesignPattern.Shared.Units
     {
         public Medic()
         {
-            _hp = 50;
+            _currentHp = 50;
+            MaxHp = 50;
         }
 
         public Medic(string name) 

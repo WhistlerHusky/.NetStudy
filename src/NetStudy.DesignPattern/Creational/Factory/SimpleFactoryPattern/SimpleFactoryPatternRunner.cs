@@ -54,7 +54,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.SimpleFactoryPattern
         //    marineB.Attack(marineA);
         //    Console.WriteLine();
         //    //죽을때까지 싸움.
-        //    while (marineA.HP > 0 && marineB.HP > 0)
+        //    while (marineA.CurrentHp > 0 && marineB.CurrentHp > 0)
         //    {
         //        marineA.Attack(marineB);
         //        Console.WriteLine();
@@ -63,7 +63,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.SimpleFactoryPattern
         //        Console.WriteLine();
         //    }
 
-        //    var winner = marineA.HP > 0 ? marineB.Name : marineA.Name;
+        //    var winner = marineA.CurrentHp > 0 ? marineB.Name : marineA.Name;
 
         //    Console.WriteLine($"The winner is {winner}");
         //}
@@ -74,7 +74,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.SimpleFactoryPattern
         //    AttackableUnit marineA = CreateMarine("Marine A");
         //    AttackableUnit marineB = CreateMarine("Marine B");
 
-        //    while (marineA.HP > 0 && marineB.HP > 0)
+        //    while (marineA.CurrentHp > 0 && marineB.CurrentHp > 0)
         //    {
         //        marineA.Attack(marineB);
         //        Console.WriteLine();
@@ -83,7 +83,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.SimpleFactoryPattern
         //        Console.WriteLine();
         //    }
 
-        //    var winner = marineA.HP > 0 ? marineA.Name : marineB.Name;
+        //    var winner = marineA.CurrentHp > 0 ? marineA.Name : marineB.Name;
 
         //    Console.WriteLine($"The winner is {winner}");
         //}
@@ -93,7 +93,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.SimpleFactoryPattern
             AttackableUnit marineA = MarineFactory.CreateMarine("Marine A");
             AttackableUnit marineB = MarineFactory.CreateMarine("Marine B");
 
-            while (marineA.HP > 0 && marineB.HP > 0)
+            while (marineA.CurrentHp > 0 && marineB.CurrentHp > 0)
             {
                 marineA.Attack(marineB);
                 Console.WriteLine();
@@ -102,7 +102,7 @@ namespace NetSutdy.DesignPattern.Creational.Factory.SimpleFactoryPattern
                 Console.WriteLine();
             }
 
-            var winner = marineA.HP > 0 ? marineA.Name : marineB.Name;
+            var winner = marineA.CurrentHp > 0 ? marineA.Name : marineB.Name;
 
             Console.WriteLine($"The winner is {winner}");
         }
