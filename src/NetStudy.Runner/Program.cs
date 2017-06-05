@@ -1,6 +1,7 @@
 ﻿using NetStudy.Core;
 using NetStudy.DifficultSubject.Variant;
 using NetSutdy.DesignPattern.Behavioral.ChainOfResponsibility;
+using NetSutdy.DesignPattern.Behavioral.Command;
 using NetSutdy.DesignPattern.Behavioral.Observer.ObserverPull;
 using NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush;
 using NetSutdy.DesignPattern.Behavioral.Strategy;
@@ -60,7 +61,10 @@ namespace NetStudy.Runner
             //runner = new FlyweightPatternRunner();
             //runner.Run();
 
-            runner = new ProxyPatternRunner();
+            //runner = new ProxyPatternRunner();
+            //runner.Run(); 
+
+            runner = new CommandPatternRunner();
             runner.Run(); 
         }
     }

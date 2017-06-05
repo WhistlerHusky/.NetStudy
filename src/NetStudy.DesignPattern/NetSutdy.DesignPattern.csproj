@@ -7,4 +7,8 @@
   <ItemGroup>
     <ProjectReference Include="..\NetStudy.Core\NetStudy.Core.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Command\Behavioral\" />
+  </ItemGroup>
 </Project>
