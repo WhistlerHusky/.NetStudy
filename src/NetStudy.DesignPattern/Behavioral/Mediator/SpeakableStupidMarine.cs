@@ -1,12 +1,12 @@
-﻿using NetSutdy.DesignPattern.Shared.Weapon;
-using System;
-using NetSutdy.DesignPattern.Behavioral.Mediator;
+﻿using System;
+using NetSutdy.DesignPattern.Shared.Units;
+using NetSutdy.DesignPattern.Shared.Weapon;
 
-namespace NetSutdy.DesignPattern.Shared.Units
+namespace NetSutdy.DesignPattern.Behavioral.Mediator
 {
-    public class StupidMarine : AttackableUnit
+    public class SpeakableStupidMarine : SpeakableUnit
     {
-        public StupidMarine()
+        public SpeakableStupidMarine()
         {
             _currentHp = 40;
             _weapon = new Gun();
