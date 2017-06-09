@@ -5,6 +5,7 @@ using NetSutdy.DesignPattern.Behavioral.Command;
 using NetSutdy.DesignPattern.Behavioral.Interpreter;
 using NetSutdy.DesignPattern.Behavioral.Iterator;
 using NetSutdy.DesignPattern.Behavioral.Mediator;
+using NetSutdy.DesignPattern.Behavioral.Memento;
 using NetSutdy.DesignPattern.Behavioral.Observer.ObserverPull;
 using NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush;
 using NetSutdy.DesignPattern.Behavioral.Strategy;
@@ -71,7 +72,9 @@ namespace NetStudy.Runner
             //runner.Run();
             //runner = new IteratorPatternRunner();
             //runner.Run();
-            runner = new MediatorPatternRunner();
+            //runner = new MediatorPatternRunner();
+            //runner.Run();
+            runner = new MementoPatternRunner();
             runner.Run();
         }
     }
