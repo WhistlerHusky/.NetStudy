@@ -10,6 +10,7 @@ using NetSutdy.DesignPattern.Behavioral.Observer.ObserverPull;
 using NetSutdy.DesignPattern.Behavioral.Observer.ObserverPush;
 using NetSutdy.DesignPattern.Behavioral.State;
 using NetSutdy.DesignPattern.Behavioral.Strategy;
+using NetSutdy.DesignPattern.Behavioral.TemplateMethod;
 using NetSutdy.DesignPattern.Creational.Builder;
 using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern;
 using NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern;
@@ -77,7 +78,9 @@ namespace NetStudy.Runner
             //runner.Run();
             //runner = new MementoPatternRunner();
             //runner.Run();
-            runner = new StatePatternRunner();
+            //runner = new StatePatternRunner();
+            //runner.Run();
+            runner = new TemplateMethodPatternRunner();
             runner.Run();
         }
     }
