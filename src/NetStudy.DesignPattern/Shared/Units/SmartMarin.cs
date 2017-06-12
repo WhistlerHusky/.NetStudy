@@ -8,6 +8,8 @@ namespace NetSutdy.DesignPattern.Shared.Units
         {
             _currentHp = 40;
             MaxHp = 50;
+            _weapon = new Gun();
+
         }
         public SmartMarine(string name) 
             : this()
@@ -17,7 +19,6 @@ namespace NetSutdy.DesignPattern.Shared.Units
         public SmartMarine(IWeapon weapon)
             : this()
         {
-
             _weapon = weapon;
         }
     }
