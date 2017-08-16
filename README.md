@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/yqxy95k1dspa77vb?svg=true)](https://ci.appveyor.com/project/WhistlerHusky/netstudy)
+
 # .NetStudy(Visual studio 2017)
 .Net 관련 문서를 읽다가 한번에 이해가 되지않거나, 다음에 돌아오면 까먹을꺼 같은 내용만 지극히 "내가" 알아볼수 있게 정리.
 
