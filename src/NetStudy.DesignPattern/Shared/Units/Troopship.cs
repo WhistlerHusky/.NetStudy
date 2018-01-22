@@ -12,7 +12,7 @@ namespace NetSutdy.DesignPattern.Shared.Units
             if (_units.Count < 8)
             {
                 _units.Add(unit);
-                Console.WriteLine($"{unit.Name} get on the {this.GetType().Name}");
+                Console.WriteLine($"{unit.Name} get on the {GetType().Name}");
                 return true;
             }
 

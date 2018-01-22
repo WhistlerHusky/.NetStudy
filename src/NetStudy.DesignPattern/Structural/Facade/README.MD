@@ -12,7 +12,7 @@ e.g.
 또 다른 예는 스타크래프트에서는 매번 유닛을 생성할때마다 확인해야되는게 3가지가 있다. 바로 미네랄, 가스 그리고 인구 수 이다.
 유닛을 생성하는 종족마다 2, 3개정도씩 있다.(저그는 한군데)
 특정 유닛 생성공장마다 아래와 같은 코드를 중복 하는것보단,
-```cs
+```csharp
 UnitType unitType = InputUnitNumber();
 
 var requiredSupplyNumber = UnitHelper.GetSupplyNumber(unitType);
@@ -47,7 +47,7 @@ StarcraftResources.CurrentSupplyNumber += requiredSupplyNumber;
 Console.WriteLine();
 ```
 Facade 클래스를 하나 만들어두고.
-```cs
+```csharp
 public class StarcraftFacade
 {
     public Unit CreateUnit(UnitType unitType)
@@ -86,7 +86,7 @@ public class StarcraftFacade
 }
 ```
 아래와 같이 호출하는게 편하다.
-```cs
+```csharp
 StarcraftFacade facade = new StarcraftFacade();
 
 while (true)

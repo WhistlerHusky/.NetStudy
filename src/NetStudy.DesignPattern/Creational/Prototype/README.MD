@@ -4,7 +4,7 @@
 
 ## 1. ICloneable
 .Net Framework 에서 Prototype pattern을 사용할때 빠지지 않는것이 바로 이 ICloneable 인터페이스 이다.
-```cs
+```csharp
 public interface ICloneable
 {
     object Clone();
@@ -12,7 +12,7 @@ public interface ICloneable
 ```
 하지만 .Net Core에서는 해당 인터페이스를 찾을수 없는데 이유는 잠시후에 정리하고, ICloneable이 없음으로 직접 구현해서 사용했다.
 
-```cs
+```csharp
 public interface ICloneable
 {
     ICloneable Clone();
@@ -48,7 +48,7 @@ public class PrototypePatternRunner : IRunner
 
  .Net Framework 에서 ICloneable 인터페이스를 구현한 클래스가 Deep copy인지 혹은 Shallow copy인지가 명확하지 않은 문제가 발생한다.
 무슨 소리냐면, A라는 클래스가 B라는 클래스를 멤버 변수로 가지고 있다고 하자.
-```cs
+```csharp
 public class A : ICloneable{
 	public B BInstance {get;set;}
     public object Clone()

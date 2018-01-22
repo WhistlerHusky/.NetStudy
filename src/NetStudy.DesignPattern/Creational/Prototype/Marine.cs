@@ -8,7 +8,7 @@ namespace NetSutdy.DesignPattern.Creational.Prototype
     {
         public ICloneable Clone()
         {
-            var clone = this.MemberwiseClone() as Marine;
+            var clone = MemberwiseClone() as Marine;
 
             return clone;
         }

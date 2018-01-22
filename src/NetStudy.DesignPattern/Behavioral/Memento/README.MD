@@ -12,7 +12,7 @@ Command pattern 은 보통 행위(method)를 undo, redo 함으로 각 행위를 
 Memento pattern은 상태(value, reference)를 undo, redo 하기 때문에 여러번 반복 하기엔  상태값들을 너무많이 저장해야한다.
 
 먼저 여기에서만 사용됨으로 Extension 클래스를 통해 Unit클래스의 기능을 확장한다.
-```cs
+```csharp
 public static class MementoExtensionHelper
 {
     public static Memento CreateMemento(this Unit unit)
@@ -32,7 +32,7 @@ public static class MementoExtensionHelper
 
 ##3. 사용법
 SmartMarine 을 생성한 이후, Memento(복원할 지점)을 정한다.
-```cs
+```csharp
 AttackableUnit smartMarin = new SmartMarine();
 smartMarin.Name = "Smart Marine";
 
@@ -42,7 +42,7 @@ ct.Memento = smartMarin.CreateMemento();
 ```
 
 StupidMarine에게 공격을 받아 hp가 5밖에 남지않는다.
-```cs
+```csharp
 for (int i = 0; i < 7; i++)
 {
     stupidMarine.Fire(smartMarin);
@@ -63,7 +63,7 @@ Current smart marine hp = 5
 ```
 
 하지만 이렇게 CareTaker를 통해 복원이 가능하다.
-```cs
+```csharp
 smartMarin.RestoreMemento(ct.Memento);
 Console.WriteLine($"smart marine hp after restoring memento = {smartMarin.CurrentHp}");
 ```

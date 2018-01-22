@@ -2,7 +2,7 @@
 옵저버 패턴을 설명할때 가장 흔하게 이용되는게 이 Push 방법을 이용하는 방법이다.
 신문사와 구독자,
 
-```cs
+```csharp
 //Metro 신문사 개설
 Publisher p = new Publisher("Metro");
 
@@ -15,7 +15,7 @@ p.Register(readerA);
 Register 메소드로 p의 이벤트를 readerA가 구독하기 시작한다.
 
 이후 새로운 뉴스가 발생하고, p가 이벤트를 발생시키면
-```cs
+```csharp
 //새로운 뉴스 발생
 News news = new News("GitHub", "Github is awesome!");
 
@@ -25,7 +25,7 @@ p.UpdateNews(news);
 ```
 
 UpdateNews 함수는 아래와 같이 새로운 이벤트를 저장하고, NotifyObserver 함수를 통해
-```cs
+```csharp
 public void UpdateNews(News news)
 {
     _news = news;
@@ -34,7 +34,7 @@ public void UpdateNews(News news)
 }
 ```
 등록된 모든 옵저버들에게 알려준다.
-```cs
+```csharp
 public void NotifyObservers()
 {
     foreach (var observer in _observers)
@@ -44,7 +44,7 @@ public void NotifyObservers()
 }
 ```
 이 정보를 어떻게 처리할지는 각각의 옵저버가 알아서 구현한다.
-```cs
+```csharp
 public class ConsoleReader : IObserver
 {
 			.
@@ -57,7 +57,7 @@ public class ConsoleReader : IObserver
 }
 ```
 반면 ReverseReader의 경우 뉴스 문자를 모두 뒤집어서 뒤에서 부터 출력한다.
-```cs
+```csharp
 public class ReverseReader : IObserver
 {
 			.

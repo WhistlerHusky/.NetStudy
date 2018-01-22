@@ -9,7 +9,7 @@
 
 먼저 SpeakableUnit 클래스를 추가해서 해당 클래스를 상속받는 마린들은 듣고 말할수 있게 기능을 추가하고.
 (여기서는 Speak 부분만 Mediator 클래스를 통하게끔 하였다.)
-```cs
+```csharp
 public abstract class SpeakableUnit : AttackableUnit
 {
     public Mediator Mediator { get; set; }
@@ -29,7 +29,7 @@ public class SpeakableStupidMarine : SpeakableUnit{}
 ```
 
 Mediator 클래스는 아래와 같이
-```cs
+```csharp
  public class Mediator
  {
      private IList<SpeakableUnit> _units;
@@ -77,7 +77,7 @@ Mediator 클래스는 아래와 같이
 반대로 "똑똑한 마린이 1" 이 What? 이라고 하면 멍청한 마린 1,2 에겐 "?tahW" 이라고 출력되고, 똑같은 타입의 똑똑한 마린 1에게만
 "Waht?" 이라고 정상 출력된다.
 
-```cs
+```csharp
 public void Run()
 {
     var stupidMarine1 = new SpeakableStupidMarine();
@@ -107,7 +107,7 @@ public void Run()
 
 여기에서는 Speakable 을 상속받는걸로 구현했지만, 사실 아래와 같이 zerg나 terran을 추가해도 상관없다. 이 두 클래스는 Mediator에만 추가될 껏임으로
 Speakable 을 상속받는 클래스들은 저 두 클래스에 대한 reference가 필요치 않다.
-```cs
+```csharp
 public class Mediator
 {
     //private IList<Terran> _terranUnits;

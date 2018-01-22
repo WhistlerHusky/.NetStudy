@@ -6,7 +6,7 @@ Leaf(파일), Composite(폴더)로 폴더안에는 Leaf 혹은 Composite이 들�
 여기서는 스타크래프트 유닛 부대지정을 가지고 이용했다.
 처음에 Dropship을 이용하려고 했지만, 생각해보니 드랍쉽은 Composite이 아니다.
 
-```cs
+```csharp
  public class UnitSelectors : AttackableUnit
  {
      readonly IList<AttackableUnit> _attackableUnits = new List<AttackableUnit>();

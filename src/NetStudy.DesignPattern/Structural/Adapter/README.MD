@@ -6,7 +6,7 @@ IGun 이라는 인터페이스를 사용하여 무기를 구현했다고 가정�
 사용하고 싶지만, 이미 IWeapon이라는 인터페이스를 이용하고 있는 Marine은 이 IGun 인터페이스 무기를 받을수 없다.
 
 **마린의 무기장착 방법**
-```cs 
+```csharp 
 //Marine의 SetWeapon은 IWeapon만 받을수있다.
 public void SetWeapon(IWeapon weapon)
 {
@@ -15,7 +15,7 @@ public void SetWeapon(IWeapon weapon)
 }
 ```
 **다른팀에서 구현한 IGun**
-```cs
+```csharp
 public interface IGun
 {
     void Shoot(Unit unit);
@@ -33,7 +33,7 @@ public class LaserGun2 : IGun
 ```
 
 **아래와 같이 사용하고 싶지만 안됨**
-```cs
+```csharp
 IWeapon gun = new LaserGun();
 Marine.SetWeapon(gun)//작동
 
@@ -44,7 +44,7 @@ Marine.SetWeapon(gunFromOtherTeam)//컴파일 에러, SetWeapon의 파라메터�
 ```
 하지만 중간에 어댑터를 두면 이야기가 달라진다.
 
-```cs
+```csharp
 public class LaserGunAdapter : IWeapon
 {
     private IGun _gun;
@@ -64,7 +64,7 @@ public class LaserGunAdapter : IWeapon
 ```
 
 마린이 IGun 구현체인 LaserGun2를 장착하는 방법.
-```cs
+```csharp
 SmartMarine sm = new SmartMarine();
 sm.SetWeapon(new LaserGunAdapter(new LaserGun2()));
 ```

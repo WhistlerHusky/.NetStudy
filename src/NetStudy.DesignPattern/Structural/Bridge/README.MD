@@ -6,7 +6,7 @@
 
  이번에 브릿지 패턴을 공부하면서 내가 이전에 만들었던 Stragety패턴은 사실은 Bridge 패턴이라는걸 깨달았다,
 스트레터지는 행동관련 패턴으로,마린이 총을쏘고, 레이저건을 쏘고, 즉 어떤총을 쏘느냐에 관한 행동에 중점을 둔 패턴이고, 이를 좀더 유연하게 하려고, Smart marine과 Stupid marine으로 분류하면서, Bridge 패턴이 된것이였다...
-```cs
+```csharp
 class Marine 
 {
 	IWeapon _weapon;
@@ -18,7 +18,7 @@ class Marine
 ```
 이렇게 하면 Strategy패턴이고, 이를 좀더 유연하게 마린뿐아니라 파이어벳이나, 다른 타입의 마린을 더 추가 할수 있게 하면 그것이 Bridge 패턴이 되는것이다.
 
-```cs
+```csharp
 
 class Marine : AttackableUnit
 {
@@ -66,7 +66,7 @@ class Firebat : AttackableUnit
 
 스타크래프트의 경우 마린은 오직 총만 가지고 전투를 하지만 ,스페셜 포스 같은 경우, 저격수가 저격총을 이용하다가, 돌격총으로 바꿀수도 있고, 리니지의 경우 기사가 검을 들고 사냥하다가, 활을 들고 사냥을 할수도 있다. 물론 기사가 활을 들고 사냥하면 데미지가 낮게 나온다. 이런걸 구현할때 편할듯 하다.
 
-```cs
+```csharp
 class Knight : AttackableUnit
 {
 	SetWeapon(IWeapon weapon)

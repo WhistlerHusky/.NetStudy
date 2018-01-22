@@ -4,7 +4,7 @@
 현재 작정된 코드중 마따힝 Flyweight pattern에 적용할만한게 생각나지 않아서, 스타크래프트에서 유즈맵 세팅을 예로 들었다.
 유즈맵 세팅중 유닛 하나만 골라서 게임을 해야하는 경우가 있다.
 이때 30초 안에 얼마든지 마린과 파이어뱃을 왔다갔다하며 유닛 정보를 비교하며 선택할 수 있다고 가정해보자.
-```cs
+```csharp
 while (remainingtime > 0)
 {
     Console.WriteLine("Enter 1 or 2");
@@ -30,7 +30,7 @@ while (remainingtime > 0)
 쓸대없는데 메모리를 낭비하지 않음으로 메모리를 아낄수 있으며 또한, 가비지 콜렉션되는 것으로부터 성능을 보호할 수 있다.
 
 아래 예제는 처음부터 마린과 파이어뱃을 넣어두고, 꺼내오는 로직만 작성했다.
-```cs
+```csharp
 public class FlyweightUnitFactory 
 {
     private IDictionary<Type, Unit> Flyweights = new Dictionary<Type, Unit>();

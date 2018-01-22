@@ -4,7 +4,7 @@ Iterator 패턴은 일련의 순서를 가진 데이터 집합에 대하여 순�
 
 예를들어 Array, List, Dictionary 등 다양한 종류의 collection에 한가지 인터페이스를 통해 접근할수 있게 해주는 패턴.
 
-```cs
+```csharp
 public interface Iterator
 {
     Unit First();
@@ -15,7 +15,7 @@ public interface Iterator
 ```
 
 아래와 같이 각자 다른 3가지 collection에 동일한 Iterator 인터페이스 만으로 순환을 하면서 값을 보여줌.
-```cs
+```csharp
 Unit[] marins = new Unit[3];
 marins[0] = new StupidMarine{ Name = "StupidMarine1" };
 marins[1] = new StupidMarine{ Name = "StupidMarine2" };

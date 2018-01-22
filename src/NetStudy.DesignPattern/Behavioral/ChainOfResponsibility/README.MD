@@ -4,7 +4,7 @@
  처음에 디렉터에게 구매요청이 오면, 디렉터가 자신의 권한 안에서 해결이 가능한 금액이면 (10000원) 디렉터가 결정을 하고, 그렇지 않을경우 부사장에게 결정(책임)을 떠넘긴다. 그리고 그 금액이 20000원 이하 일 경우 부사장이 결정을 하고, 그렇지 않으면 다시 사장에게 책임을 떠넘긴다.
 
 먼저 책임 연대가 있는 클래스군을 생성한다.
-```cs
+```csharp
 public abstract class Approver
 {
     protected decimal _maxAmount;
@@ -13,7 +13,7 @@ public abstract class Approver
 }
 ```
 
-```cs
+```csharp
 public class Director : Approver
 {
     public Director()
@@ -41,7 +41,7 @@ public class Director : Approver
 
 ```
 VicePresident와 President는 Director class와 코드가 거의 동일하니 핵심 부분만
-```cs
+```csharp
 public VicePresident()
 {
     _maxAmount = 20000;
@@ -61,7 +61,7 @@ public override void ProcessRequest(Purchase purchase)
 ```
 Vicepresident는 maxAmount가 20000, President는 3만이다.
 
-```cs
+```csharp
 Approver director = new Director();
 Approver vicePresident = new VicePresident();
 Approver President = new President();

@@ -2,7 +2,7 @@
 
 말 그대로 문법 또는 표현을 평가하기 위한 패턴, 특정 context를 interpret 하는것을 여러 expression 인터페이스를 구현하는것을 수반한다.
 
-```cs
+```csharp
 public interface Expression
 {
     int Interpret(int mineral);
@@ -13,7 +13,7 @@ public interface Expression
 
 먼저 사용자가 어떻게 수식을 해석할건지 알고있어야한다.
 여기서는 가능하면 비싼 유닛을 만들수 있는 만큼 만들고, 남은 금액으로 다음 비싼 유닛,,,,식으로 해석을 지정했다.
-```cs
+```csharp
 IList<Expression> list = new List<Expression>();
 	list.Add(new BattleCruiserExpression());
     list.Add(new DropshipExpression());
@@ -22,7 +22,7 @@ IList<Expression> list = new List<Expression>();
 
 int Interpret(int) 메소드는 그냥 주어진 미네랄도 각 유닛을 만들수 있는 수만 구하고,
 int CreateUnit(int) 은 실제로 주어진 미네랄도 각 유닛을 만들수 있는 수와, 그리고 남은 미네랄 (ref int)을 돌려준다.
-```cs
+```csharp
 public class BattleCruiserExpression : Expression
 {
     private const int RequiredMineral = 250;
@@ -42,7 +42,7 @@ public class BattleCruiserExpression : Expression
 }
 ```
 결과는 아래와 같이 나온다.
-```cs
+```csharp
 With 650 mienrals
 If you create only,
     BattleCruiser, then 2 can be created

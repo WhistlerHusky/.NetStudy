@@ -30,3 +30,6 @@ Gof 패턴에는 총 23개의 패턴이 있다
    9. ### Strategy
    10. ### Template Method
    11. ### Visitor
+       
+## 4. Others
+   1. ### Specification

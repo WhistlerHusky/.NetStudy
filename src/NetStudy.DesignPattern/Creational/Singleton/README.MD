@@ -2,7 +2,7 @@
 이 글은 C# in depth 의 저자 Jon Skeet 의 블로그를 번역한 수준
 ## 1. 5가지 Singleton pattern
 1. Not thread-safe
-```cs
+```csharp
 public sealed class Singleton
 {
     private static Singleton instance=null;
@@ -26,7 +26,7 @@ public sealed class Singleton
 }
 ```
 2. Simple thread-safety
-```cs
+```csharp
 public sealed class Singleton
 {
     private static Singleton instance = null;
@@ -53,7 +53,7 @@ public sealed class Singleton
 }
 ```
 3. Double-check locking
-```cs
+```csharp
 public sealed class Singleton
 {
     private static Singleton instance = null;
@@ -85,7 +85,7 @@ public sealed class Singleton
 }
 ```
 4. not quite as lazy, but thread-safe without using locks
-```cs
+```csharp
 public sealed class Singleton
 {
 	// 이 패턴의 문제점은 다른 예제들과 다르게 lazy하지 않다.
@@ -115,7 +115,7 @@ public sealed class Singleton
 }
 ```
 위 코드와 동일하지만 Auto-property 를 적용하면 아래와같이 작성가능(동일한 코드임)
-```cs
+```csharp
 public sealed class Singleton
 {
 	public static Singleton Instance { get; } = new Singleton();
@@ -128,7 +128,7 @@ public sealed class Singleton
 }
 ```
 5. Fully lazy instantiation
-```cs
+```csharp
 public sealed class Singleton
 {
     private Singleton()
@@ -152,7 +152,7 @@ public sealed class Singleton
 }
 ```
 6.using .NET 4's Lazy<T> type
-```cs
+```csharp
 public sealed class Singleton
 {
 	// .NET 4.0 이상 버전을 사용하면 이와 같은 코드로 작성 가능.

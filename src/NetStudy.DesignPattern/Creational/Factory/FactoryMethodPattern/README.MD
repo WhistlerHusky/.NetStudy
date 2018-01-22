@@ -4,7 +4,7 @@ factory method 패턴은 객체를 생성하는 시점은 알지만 어떤 객�
 e.g. 마린을 생성하는건 알지만, 한국 마린이냐 미국 마린이냐 를 모를때 객체 생성을 하위 클래스에 위임하여 해결 할 수 있다.
 
 추상 마린 팩토리를 만들고.
-```cs
+```csharp
 public abstract class MarineFactory
 {
     public abstract AttackableUnit CreateMarine(string marineType);
@@ -12,7 +12,7 @@ public abstract class MarineFactory
 ```
 
 실제 객체 생성은 하위 클래스에서 구현.
-```cs
+```csharp
 //한국 해병
 public class KoreanMarineFactory : MarineFactory
 {
@@ -37,7 +37,7 @@ public class KoreanMarineFactory : MarineFactory
 }
 ```
 //미국 해병
-```cs
+```csharp
 public class UsaMarineFactory : MarineFactory
 {
     public override AttackableUnit CreateMarine(string marineType)
@@ -60,7 +60,7 @@ public class UsaMarineFactory : MarineFactory
     }
 }
 ```
-```cs
+```csharp
 public class FactoryMethodPatternRunner : IRunner
 {
     public void Run()
@@ -87,7 +87,7 @@ public class FactoryMethodPatternRunner : IRunner
 위 코드에서는 생성만 팩토리 메소드 패턴으로 구현하였지만, 생성후에 매번 처리해야 하는 코드를 팩토리에 넣어주면,
 매번 마린을 생성하는 코드에서 반복되는 코드를 해결 할 수 있다.
 e.g. 마린 currentHp 설정.
-```cs
+```csharp
 public AttackableUnit CreateNewMarine(string marineType)
 {
     var marine = CreateMarine(marineType);
