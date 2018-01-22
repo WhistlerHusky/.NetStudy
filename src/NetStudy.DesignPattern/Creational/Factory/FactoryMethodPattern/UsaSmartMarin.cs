@@ -4,7 +4,7 @@ using AttackableUnit = NetSutdy.DesignPattern.Shared.Units.AttackableUnit;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern
 {
-    public class UsaSmartMarine : Shared.Units.AttackableUnit
+    public class UsaSmartMarine : AttackableUnit
     {
         public UsaSmartMarine() 
         {

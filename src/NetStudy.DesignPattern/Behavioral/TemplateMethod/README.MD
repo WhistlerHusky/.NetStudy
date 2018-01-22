@@ -9,7 +9,7 @@ Build pattern은 생성과 관련된 패턴으로 객체를 생성하는 것을 
 두 빌드다 동일하게 초반에 scv를 4마리를 생상한 이후에 패턴이 갈린다.
 
 이렇게 공통되는 사항을 상위(Terranbuild)클래스에 정의하고
-```cs
+```csharp
 public abstract class TerranBuild
 {
 	//여기에 공통사항은 그냥 함수로 구현
@@ -22,7 +22,7 @@ public abstract class TerranBuild
 ```
 그럼 정해진 빌드가 어떻게 호출되는지 살펴보자
 
-```cs
+```csharp
 public void PrepareWar()
 {
     Console.WriteLine($"Current unit {_currentUnitCount}/{_currentSupplyBlock}");
@@ -39,7 +39,7 @@ public void PrepareWar()
 ```
 
 그럼 8서플라이 빌들를 보자
-```cs
+```csharp
 public class Terran8SCVThenSuppliesBuild : TerranBuild
 {
 	//8서플 빌드는 배럭스를 짓지않고 8번째 scv이후 서플라이를 짓는것임으로 배럭스 짓는 함수를 그냥 아무것도 하지않고 넘기면된다.
@@ -69,7 +69,7 @@ Current Unit Count = 8 / 18
 ```
 
 반면 8배럭스 빌드를 보자.
-```cs
+```csharp
 public class Terran8SCVThenBarracksBuild : TerranBuild
 {
 	//여기서는 배럭스를 짓는다.

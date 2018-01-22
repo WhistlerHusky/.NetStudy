@@ -5,7 +5,7 @@
 구현보다는 구성! 이라는 말이 무슨뜻인지 설명해주는 패턴.
 
 IWeapon 이라는 인터페이스가 있다고 가정하자.
-```cs
+```csharp
 public interface IWeapon
 {
     void Fire(Unit unit);
@@ -13,11 +13,11 @@ public interface IWeapon
 ```
 
 멍청한 마린은 IWeapon을 구현을 하였기 때문에,
-```cs
+```csharp
 public class StupidMarine : Unit, IWeapon
 ```
 추후에 바꿔주려면 StupidMarine 클래스 자체를 수정해야 한다.
-```cs
+```csharp
 public class StupidMarine : Unit, IWeapon
 {
             .
@@ -32,7 +32,7 @@ public class StupidMarine : Unit, IWeapon
 }
 ```
 반면, 똑똑한 마린은 IWeapon을 구성으로 가지고 있기 때문에,
-```cs
+```csharp
 public class AttackableUnit : Unit
 {
     private IWeapon _weapon;
@@ -44,7 +44,7 @@ public class SmartMarine : AttackableUnit
 }
 ```
 이렇게 무기를 만들어서
-```cs
+```csharp
 public class Gun : IWeapon
 {
   public void Fire(Unit unit)
@@ -56,12 +56,12 @@ public class Gun : IWeapon
 }
 ```
 생성자나, 프라퍼티 혹은 메서드를 통해 교체해주면 된다.
-```cs
+```csharp
 IWeapon gun = new Gun();
 SmartMarine smartMarine = new SmartMarine(gun);
 ```
 추후 업데이트로 마린이 다른무기도 사용가능하게 될 경우, 해당 마린 클래스를 수정하지않고, IWeapon을 구현하는 무기를 만들어서
-```cs
+```csharp
 public class LaserGun : IWeapon
 {
     public void Fire(Unit unit)
@@ -73,12 +73,12 @@ public class LaserGun : IWeapon
 }
 ```
 이렇게 무기만 바꿔주면 된다.
-```cs
+```csharp
 smartMarine.SetWeapon(new LaserGun());
 ```
 
 무기 바꾸는 메소드
-```cs
+```csharp
 public void SetWeapon(IWeapon weapon)
 {
     _weapon = weapon;

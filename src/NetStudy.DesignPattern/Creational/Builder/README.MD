@@ -2,14 +2,14 @@
 
 ## 1. Builder, 말 그대로 조립하는 패턴
 Factory method pattern 이 제품을 "찍어" 내는 패턴이라고 한다면,
-```cs
+```csharp
 MarineFactory koreanMarineFactory = new KoreanMarineFactory();
 var koreanMarine1 = koreanMarineFactory.CreateNewMarine("1");
 Console.WriteLine(koreanMarine1.GetType().Name);
 ```
 
 Builder pattern 은 제품을 조립하는 패턴이라고 보면된다.
-```cs
+```csharp
 //Director 이용
 MarineDirector marinDirector = new MarineDirector();
 MarinBuilder marinBuilder = new KoreanMarinBuilder();
@@ -20,7 +20,7 @@ Console.WriteLine();
 ```
 
 Director CreateMarine 는 아래와 같이 정의되어있다.
-```cs
+```csharp
 public void CreateMarine(MarinBuilder marainBuilder)
 {
     marainBuilder
@@ -30,7 +30,7 @@ public void CreateMarine(MarinBuilder marainBuilder)
 ```
 
 만약 Director 없이 사용한다면, 아래와 같이 사용가능하고
-```cs
+```csharp
 marinBuilder = new KoreanMarinBuilder();
 marinBuilder.SetWeapon().SetBulletProofVest();
 marin = marinBuilder.Marin;

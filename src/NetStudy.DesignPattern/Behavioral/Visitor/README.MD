@@ -5,13 +5,13 @@
 유닛을 선택할때 List로 그 유닛을 선택하는 구조는 동일하지만, 그 유닛에 대한 정보를 보여주는 기능을 다르게 하고 싶을때 사용 할 수 있는게 바로 이 Visitor pattern이다.
 
 
-```cs
+```csharp
 public interface IVisitor
 {
     void Visit(Unit unit);
 }
 ```
-```cs
+```csharp
 //이름만 출력하는 Visitor
 public class UnitNameVisitor : IVisitor
 {
@@ -22,7 +22,7 @@ public class UnitNameVisitor : IVisitor
 }
 ```
 
-```cs
+```csharp
 //이름과 HP를 같이 출력하는 Visitor
 public class UnitNameAndHpVisitor : IVisitor
 {
@@ -33,7 +33,7 @@ public class UnitNameAndHpVisitor : IVisitor
 }
 ```
 여기서는 unit들을 리스트로 보관하는 구조이다.
-```cs
+```csharp
 public class Units
 {
     private IList<Unit> _units = new List<Unit>();
@@ -57,7 +57,7 @@ public class Units
 }
 ```
 
-```cs
+```csharp
 AttackableUnit stupidMarine1 = new StupidMarine();
 stupidMarine1.Name = "StupidMarine1";
 AttackableUnit stupidMarine2 = new StupidMarine();
@@ -93,7 +93,7 @@ StupidMarine2 hp => 30
 SmartMarine1 hp => 40
 SmartMarine2 hp => 25
 ```
-```cs
+```csharp
 //이름만 보여주는 Visitor
 visitor = new UnitNameVisitor();
 units.Accept(visitor);

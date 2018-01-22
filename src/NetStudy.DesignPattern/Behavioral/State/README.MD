@@ -2,7 +2,7 @@
 >상태변화를 가지는 주요 객체를 다룰 때 유용하게 적용가능한 패턴으로 객체의 내부 상태가 바뀜에 따라서 객체의 행동을 바꿀 수 있다.
 
 먼저 상태를 정의하고.
-```cs
+```csharp
 public interface IState
 {
     AttackableUnit Unit { get; set; }
@@ -12,7 +12,7 @@ public interface IState
 ```
 마린이 가질수 있는 상태를 3가지로 나눴다.
 
-```cs
+```csharp
     public class NormalStateMarine : IState
     {
         public void Attack(Unit unit)
@@ -53,7 +53,7 @@ public interface IState
 ```
 
 실행하는 코드
-```cs
+```csharp
 StateMarine marine1 = new StateMarine();
 marine1.Name = "Marine 1";
 StateMarine marine2 = new StateMarine();
@@ -75,19 +75,19 @@ Marine 2 got attacked! 15 -> 10
 Marine 2 got attacked! 10 -> 5
 ```
 
-```cs
+```csharp
 //현재 HP 5남음
 Console.WriteLine($"Current {marine2.Name} hp = {marine2.CurrentHp}");
 ```
 ```
 Current Marine 2 hp = 5
 ```
-```cs
+```csharp
 //marine2 죽기직전에 arbiter에게 얼음
 Arbiter arbiter = new Arbiter();
 arbiter.StasisField(marine2);
 ```
-```CS
+```csharp
 for (int i = 0; i < 7; i++)
 {
 	//얼어있는 상태에서는 피해를 입지않음
@@ -103,7 +103,7 @@ Frozen Marine 2 cannot get damanged
 Frozen Marine 2 cannot get damanged
 Frozen Marine 2 cannot get damanged
 ```
-```cs
+```csharp
 //마린2 스팀팩 사용하고 반격
 marine2.StateChanged(MarineState.Stimpack);
 

@@ -11,7 +11,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Iterator
 
         public UnitListIterator(IList<Unit> units)
         {
-            this._units = units;
+            _units = units;
         }
 
         public Unit First()

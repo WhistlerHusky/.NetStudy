@@ -4,11 +4,11 @@
 ## 1. Variant
 1. ### Covariant
 	Covriant는 흔히 generic에서 부모 클래스 타입 변수로, 자식 클래스의 실 객체 를 담을수 있는것을 말함.
-```cs
+```csharp
 IEnumerable<object> covariant = new List<string>();
 ```
 이게 가능한게 IEnumerable이 아래와 같이 정의되어 있기 때문에
-```cs
+```csharp
 public interface IEnumerable<out T> : IEnumerable
 {
 	IEnumerator<T> GetEnumerator();
@@ -20,7 +20,7 @@ public interface IEnumerable<out T> : IEnumerable
 2. ### Contravariant
 Contravariant는 covariant와 반대로 자식 클래스 타입 변수로, 부모 클래스의 실 객체를 담을수 있는것을 말함.
 만약 아래와같은 ObjectComparable generic 클래스가 있을경우.
-```cs
+```csharp
 public class ObjectComparable<T> : IComparable<T>
 {
     public int CompareTo(object obj)
@@ -38,11 +38,11 @@ public class ObjectComparable<T> : IComparable<T>
 }
 ```
  아래와 같이 사용가능
-```cs
+```csharp
 IComparable<string> comparable = new ObjectComparable<object>();
 ```
 이는 IComparable이 아래와 같이 정의되어있기 때문
-```cs
+```csharp
 public interface IComparable<in T>
 {
 	int CompareTo(T other);

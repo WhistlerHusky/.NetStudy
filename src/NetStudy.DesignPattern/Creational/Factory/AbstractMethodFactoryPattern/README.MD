@@ -2,7 +2,7 @@
 
 Abstract Factory Pattern은 일련의 연관성이 있는 여러개의 객체군을 각각의 Concreate Factory 클래스를 통해 동일한 객체군을 만드는 패턴이다.
 Factory Method와 자주 헷갈리는데, 이는 Factory Method에도 아래와 같이 abstract 클래스가 존재해서 그런듯하다.
-```cs
+```csharp
 public abstract class MarineFactory
 {
     public abstract AttackableUnit CreateMarine(string marineType);
@@ -18,7 +18,7 @@ Abstract Factory는 패턴을 생성해야 할 **객체군의 공통점**에 촛
 한국 마린을 생성할 때 한국산을 착용하게끔 일련의 연광성있는(국산) 여러개의 객체군(무기, 방탄, 헬멧, 전투화)을 Concreate Factory 클래스를 통해 생성
 
 먼저 국산 마린의 무기와 방탄조끼 세팅을 담당하는 클래스르
-```cs
+```csharp
 public class KoreanMarineSettingFactory : IMarineSettingFactory
 {
     public IWeapon GetWeapon()
@@ -33,7 +33,7 @@ public class KoreanMarineSettingFactory : IMarineSettingFactory
 }
 ```
 위 클래스 객체를 아래와 같이 KoreanMarineFactory에서 국산 마린 생성자 인자로 넘겨주면
-```cs
+```csharp
 public class KoreanMarineFactory : MarineFactory
 {
     public override AttackableUnit CreateMarine(string marineType)
@@ -48,7 +48,7 @@ public class KoreanMarineFactory : MarineFactory
                 marine = new KoreanFlyingMarine(marineSettingFactory);
 ```
 국산 마린이 가져오는 방탄조끼와 무기는 국산이된다.
-```cs
+```csharp
 public class KoreanFlyingMarine : AttackableUnit
 {
     private IMarineSettingFactory _marineSettingFactory;

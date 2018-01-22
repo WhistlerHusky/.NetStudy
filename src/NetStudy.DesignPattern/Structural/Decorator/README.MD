@@ -7,11 +7,11 @@
 <h6 style="text-align: center;" markdown="1">출처 : wikipedia</h6>
 
 AttackableUnit을 Component로 사용 하며
-```cs
+```csharp
 public abstract class AttackableUnit : Unit
 ```
 SmartMarine 이 여기서는 ConcreteComponent 으로 사용된다.
-```cs
+```csharp
 public class SmartMarine : AttackableUnit
 {
 			.
@@ -19,7 +19,7 @@ public class SmartMarine : AttackableUnit
 }
 ```
 Decorator 클래스와, 
-```cs
+```csharp
 public abstract class Decorator : AttackableUnit
 {
     protected AttackableUnit _attackableUnit; //이게 핵심.
@@ -31,7 +31,7 @@ public abstract class Decorator : AttackableUnit
 }
 ```
 이 클래스를 상속 구현하는 Stimpack class (ConcreteDecorato )
-```cs
+```csharp
 public class Stimpack : Decorator
 {
     public Stimpack(AttackableUnit smartMarine) : base(smartMarine)
@@ -49,7 +49,7 @@ public class Stimpack : Decorator
 ```
 
 SmartMarine이 Stimpack을 사용하는 방법은 아래와 같다.
-```cs
+```csharp
 SmartMarine smartMarine = new SmartMarine(gun);
 smartMarine.Name = "Smart Marine B";
 
