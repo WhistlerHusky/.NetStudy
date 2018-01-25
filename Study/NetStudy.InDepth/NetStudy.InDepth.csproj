@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+      <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Castle.Core" Version="4.2.1" />
+      <PackageReference Include="Castle.LoggingFacility" Version="4.1.0" />
+      <PackageReference Include="Castle.Windsor" Version="4.1.0" />
+      <PackageReference Include="log4net" Version="2.0.8" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <ProjectReference Include="..\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj" />
+  </ItemGroup>
+
+</Project>

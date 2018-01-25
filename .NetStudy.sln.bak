@@ -1,19 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A21A5882-83EA-4E47-BC63-8E9F76EA481E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Study", "Study", "{A21A5882-83EA-4E47-BC63-8E9F76EA481E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStudy.Runner", "src\NetStudy.Runner\NetStudy.Runner.csproj", "{C389DD85-51CF-4434-89FF-8D15A8ECCF31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStudy.Runner", "Study\NetStudy.Runner\NetStudy.Runner.csproj", "{C389DD85-51CF-4434-89FF-8D15A8ECCF31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSutdy.DesignPattern", "src\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj", "{9BE646FD-C784-4BC5-BFEE-74BE27CF0D95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSutdy.DesignPattern", "Study\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj", "{9BE646FD-C784-4BC5-BFEE-74BE27CF0D95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStudy.Core", "src\NetStudy.Core\NetStudy.Core.csproj", "{65B789D0-619F-4104-A715-94D6F2F2752F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStudy.InDepth", "Study\NetStudy.InDepth\NetStudy.InDepth.csproj", "{D3946553-A695-4E21-B6DF-C5120F1BB82C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStudy.DifficultSubject", "src\NetStudy.DifficultSubject\NetStudy.DifficultSubject.csproj", "{D3946553-A695-4E21-B6DF-C5120F1BB82C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStudy.EnterpriseApplicationArchitecture", "Study\NetStudy.EnterpriseApplicationArchitecture\NetStudy.EnterpriseApplicationArchitecture.csproj", "{EA525353-8633-40A6-9B6C-A62F63960B85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStudy.EnterpriseApplicationArchitecture", "NetStudy.EnterpriseApplicationArchitecture\NetStudy.EnterpriseApplicationArchitecture.csproj", "{EA525353-8633-40A6-9B6C-A62F63960B85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStudy.Core", "Study\NetStudy.Core\NetStudy.Core.csproj", "{DE0CDE82-4D0A-455F-B707-048E56FEDCF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nugets", "Nugets", "{1B0BB06F-EFEA-4367-89E8-559C4A4A1F5E}"
+	ProjectSection(SolutionItems) = preProject
+		Nugets\NetStudy.Nugets\README.MD = Nugets\NetStudy.Nugets\README.MD
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStudy.Nugets.CastleWindsor", "Nugets\NetStudy.Nugets\NetStudy.Nugets.CastleWindsor.csproj", "{8F4C3F93-9CFE-402A-A56D-804A16618139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +36,6 @@ Global
 		{9BE646FD-C784-4BC5-BFEE-74BE27CF0D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BE646FD-C784-4BC5-BFEE-74BE27CF0D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BE646FD-C784-4BC5-BFEE-74BE27CF0D95}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65B789D0-619F-4104-A715-94D6F2F2752F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65B789D0-619F-4104-A715-94D6F2F2752F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65B789D0-619F-4104-A715-94D6F2F2752F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65B789D0-619F-4104-A715-94D6F2F2752F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D3946553-A695-4E21-B6DF-C5120F1BB82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3946553-A695-4E21-B6DF-C5120F1BB82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3946553-A695-4E21-B6DF-C5120F1BB82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +44,14 @@ Global
 		{EA525353-8633-40A6-9B6C-A62F63960B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA525353-8633-40A6-9B6C-A62F63960B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA525353-8633-40A6-9B6C-A62F63960B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0CDE82-4D0A-455F-B707-048E56FEDCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0CDE82-4D0A-455F-B707-048E56FEDCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0CDE82-4D0A-455F-B707-048E56FEDCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0CDE82-4D0A-455F-B707-048E56FEDCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F4C3F93-9CFE-402A-A56D-804A16618139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4C3F93-9CFE-402A-A56D-804A16618139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4C3F93-9CFE-402A-A56D-804A16618139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4C3F93-9CFE-402A-A56D-804A16618139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,8 +59,12 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C389DD85-51CF-4434-89FF-8D15A8ECCF31} = {A21A5882-83EA-4E47-BC63-8E9F76EA481E}
 		{9BE646FD-C784-4BC5-BFEE-74BE27CF0D95} = {A21A5882-83EA-4E47-BC63-8E9F76EA481E}
-		{65B789D0-619F-4104-A715-94D6F2F2752F} = {A21A5882-83EA-4E47-BC63-8E9F76EA481E}
 		{D3946553-A695-4E21-B6DF-C5120F1BB82C} = {A21A5882-83EA-4E47-BC63-8E9F76EA481E}
 		{EA525353-8633-40A6-9B6C-A62F63960B85} = {A21A5882-83EA-4E47-BC63-8E9F76EA481E}
+		{DE0CDE82-4D0A-455F-B707-048E56FEDCF8} = {A21A5882-83EA-4E47-BC63-8E9F76EA481E}
+		{8F4C3F93-9CFE-402A-A56D-804A16618139} = {1B0BB06F-EFEA-4367-89E8-559C4A4A1F5E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2E0FFB4-5289-4AD9-BEB6-ECDD08DBBB60}
 	EndGlobalSection
 EndGlobal
