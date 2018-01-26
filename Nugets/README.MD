@@ -3,3 +3,4 @@
 
 ## Castle Windsor
 ## NSubstitute
+## Redis
