@@ -13,11 +13,13 @@
 
   <ItemGroup>
     <PackageReference Include="Shouldly" Version="3.0.0" />
+    <PackageReference Include="SourceLinkTest" Version="1.0.0" />
     <PackageReference Include="xunit" Version="2.3.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Nugets\CastleWindsor\CastleWindsor.csproj" />
+    <ProjectReference Include="..\..\Nugets\Redis\Redis.csproj" />
     <ProjectReference Include="..\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj" />
   </ItemGroup>
 

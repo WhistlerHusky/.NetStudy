@@ -1,7 +1,6 @@
-﻿using CastleWindsor;
-using NetStudy.Core;
+﻿using NetStudy.Core;
+using Redis;
 using System;
-using System.Threading.Tasks;
 
 namespace NetStudy.Runner
 {
@@ -37,8 +36,10 @@ namespace NetStudy.Runner
             //runner = new TemplateMethodPatternRunner();
             //runner = new VisitorPatternRunner();
             //runner = new SpecificationRunner();
-            runner = new CastleWinsorRunner();
+            //runner = new CastleWinsorRunner();
+            runner = new RedisRunner();
             runner.Run();
+
             Console.ReadKey();
         }
     }
