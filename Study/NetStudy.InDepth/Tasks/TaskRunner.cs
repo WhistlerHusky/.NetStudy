@@ -1,6 +1,6 @@
 ﻿using NetStudy.Core;
 
-namespace NetStudy.InDepth.Task
+namespace NetStudy.InDepth.Tasks
 {
     public class TaskRunner : IRunner
     {

@@ -1,6 +1,10 @@
 ﻿using NetStudy.Core;
+using NetStudy.InDepth.Spans;
 using Redis;
 using System;
+using Microsoft.CodeAnalysis.CSharp.Scripting;
+using NetStudy.InDepth.CSharpScripting;
+using NetStudy.InDepth.Linq;
 
 namespace NetStudy.Runner
 {
@@ -34,10 +38,15 @@ namespace NetStudy.Runner
             //runner = new MementoPatternRunner();
             //runner = new StatePatternRunner();
             //runner = new TemplateMethodPatternRunner();
-            //runner = new VisitorPatternRunner();
+            //runner = new VisitorPatternRunn   er();
             //runner = new SpecificationRunner();
             //runner = new CastleWinsorRunner();
-            runner = new RedisRunner();
+            //runner = new RedisRunner();
+            //runner = new SpanRunner();
+            //runner = new LinqRunner();
+            runner = new CSharpScriptingRunner();
+            //Task.Run(async () => await CSharpScript.EvaluateAsync("Debug.WriteLine(\"Hello world!\")")).Wait();
+
             runner.Run();
 
             Console.ReadKey();

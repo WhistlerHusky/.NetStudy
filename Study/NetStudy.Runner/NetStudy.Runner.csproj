@@ -21,6 +21,7 @@
     <ProjectReference Include="..\..\Nugets\CastleWindsor\CastleWindsor.csproj" />
     <ProjectReference Include="..\..\Nugets\Redis\Redis.csproj" />
     <ProjectReference Include="..\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj" />
+    <ProjectReference Include="..\NetStudy.InDepth\NetStudy.InDepth.csproj" />
   </ItemGroup>
 
   <ItemGroup>
