@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetStudy.InDepth.Task
+namespace NetStudy.InDepth.Tasks
 {
     public class FooBar
     {
