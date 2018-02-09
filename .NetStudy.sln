@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Study", "Study", "{A21A5882-83EA-4E47-BC63-8E9F76EA481E}"
 	ProjectSection(SolutionItems) = preProject
@@ -36,6 +36,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainDrivenDesignQuick", "Books\DomainDrivenDesignQuick\DomainDrivenDesignQuick.csproj", "{E34B8508-2112-42FF-ABA4-0507F37FE634}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStudy.EnterpriseApplicationArchitecture", "Books\EnterpriseApplicationArchitecture\NetStudy.EnterpriseApplicationArchitecture.csproj", "{531B82C5-FD5D-4B00-993E-AB876B3FFF6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Effective_CSharp_Third", "Books\Effective_CSharp_Third\Effective_CSharp_Third.csproj", "{0F496B9C-3A01-4141-A03C-484D64F0A611}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{531B82C5-FD5D-4B00-993E-AB876B3FFF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{531B82C5-FD5D-4B00-993E-AB876B3FFF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{531B82C5-FD5D-4B00-993E-AB876B3FFF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F496B9C-3A01-4141-A03C-484D64F0A611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F496B9C-3A01-4141-A03C-484D64F0A611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F496B9C-3A01-4141-A03C-484D64F0A611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F496B9C-3A01-4141-A03C-484D64F0A611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +109,7 @@ Global
 		{4C8FFE75-9AE6-46BF-9088-0F2E28367984} = {7A0AF2D2-84B3-4880-B225-665F661A7BDA}
 		{E34B8508-2112-42FF-ABA4-0507F37FE634} = {7A0AF2D2-84B3-4880-B225-665F661A7BDA}
 		{531B82C5-FD5D-4B00-993E-AB876B3FFF6D} = {7A0AF2D2-84B3-4880-B225-665F661A7BDA}
+		{0F496B9C-3A01-4141-A03C-484D64F0A611} = {7A0AF2D2-84B3-4880-B225-665F661A7BDA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2E0FFB4-5289-4AD9-BEB6-ECDD08DBBB60}
