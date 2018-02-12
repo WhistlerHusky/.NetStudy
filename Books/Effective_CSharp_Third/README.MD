@@ -159,11 +159,19 @@ public static Brush Black
 ```
 StringBuilder 잘 사용할것.
 
-## 16. Never Call Virtual Functions in Constructors
+### 16. Never Call Virtual Functions in Constructors
 책에는 왜 사용하면 안되는지 내용이 설명이 자세히 나옴.
 C# 특성상, 베이스 클래스 생성자가 호출되기전에 자식 클래스들의 모든 메소드와 멤버 변수가 다 생성되기 때문에,
 만약 베이스 클래스 생성자에서 호출하는 가상함수가, 자식 클래스에서 override 되었을 경우 자식 클래스의 함수가 호출되어
 예상치 못한 시나리오 발생가능.
+
+### 17. Implement the Standard Dispose Pattern
+ unmannaged memory 사용시, IDispose 통해서 꼭 메모리 해제 할것.
+만약 해당 클래스가 다른 클래스의 베이스 클래스가 될 수 있다면. protected virutal 로 선언해서 상속받는 클래스도
+해당 클래스내에 존재하는 unmannaged memory 해제하고 base클래스의 Dispose 호출하게끔.
+
+
+## Part 3 Working with Generics
 
 
 

@@ -4,6 +4,7 @@ using Redis;
 using System;
 using Microsoft.CodeAnalysis.CSharp.Scripting;
 using NetStudy.InDepth.CSharpScripting;
+using NetStudy.InDepth.DataStructure;
 using NetStudy.InDepth.Linq;
 
 namespace NetStudy.Runner
@@ -44,9 +45,9 @@ namespace NetStudy.Runner
             //runner = new RedisRunner();
             //runner = new SpanRunner();
             //runner = new LinqRunner();
-            runner = new CSharpScriptingRunner();
+            //runner = new CSharpScriptingRunner();
             //Task.Run(async () => await CSharpScript.EvaluateAsync("Debug.WriteLine(\"Hello world!\")")).Wait();
-
+            runner = new DataStructureRunner();
             runner.Run();
 
             Console.ReadKey();
