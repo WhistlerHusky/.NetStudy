@@ -1,18 +1,10 @@
 ﻿namespace NetStudy.InDepth.Variant
 {
-    /// <summary>
-    /// Covariant
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
-    public interface ICovarianct<out T> // out, 즉 return type을 꺼내(out)으로만 사용함
-    {
-        T GetKing();
-    }
-
+ 
     /// <summary>
     /// 
     /// </summary>
-    public class CovariantAnimal : ICovarianct<Animal>
+    public class CovariantAnimal : ICovariance<Animal>
     {
         public Animal GetKing()
         {
@@ -23,7 +15,7 @@
     /// <summary>
     /// 
     /// </summary>
-    public class CovariantLion : ICovarianct<Lion>
+    public class CovariantLion : ICovariance<Lion>
     {
         public Lion GetKing()
         {

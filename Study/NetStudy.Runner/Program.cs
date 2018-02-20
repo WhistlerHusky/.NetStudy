@@ -47,7 +47,8 @@ namespace NetStudy.Runner
             //runner = new LinqRunner();
             //runner = new CSharpScriptingRunner();
             //Task.Run(async () => await CSharpScript.EvaluateAsync("Debug.WriteLine(\"Hello world!\")")).Wait();
-            runner = new DataStructureRunner();
+         
+        runner = new DataStructureRunner();
             runner.Run();
 
             Console.ReadKey();

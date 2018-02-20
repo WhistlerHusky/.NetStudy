@@ -1,6 +1,6 @@
 # Variant
 ## 1. Covariant
-	Covriant는 흔히 generic에서 부모 클래스 타입 변수로, 자식 클래스의 실 객체 를 담을수 있는것을 말함.
+	Covariant는 흔히 generic에서 부모 클래스 타입 변수로, 자식 클래스의 실 객체 를 담을수 있는것을 말함.
 ```csharp
 IEnumerable<object> covariant = new List<string>();
 ```

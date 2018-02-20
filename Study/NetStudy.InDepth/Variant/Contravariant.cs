@@ -3,19 +3,9 @@
 namespace NetStudy.InDepth.Variant
 {
     /// <summary>
-    /// Contravariant
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
-    public interface IContravarianct<in T> // in, 즉 parameter type으로 (in)넣을때만 사용함
-    {
-        string GetKing(T first, T second);
-    }
-
-
-    /// <summary>
     /// Animal은 이름 길이로 왕을 뽑는다.
     /// </summary>
-    public class FindKingAnimal: IContravarianct<Animal> 
+    public class FindKingAnimal: IContravariance<Animal> 
     {
         /// <summary>
         /// 이름 길이가 긴 동물을 출력
@@ -50,7 +40,7 @@ namespace NetStudy.InDepth.Variant
     /// <summary>
     /// Lion은 Power로 뽑느다.
     /// </summary>
-    public class FindKingLion : IContravarianct<Lion>
+    public class FindKingLion : IContravariance<Lion>
     {
         /// <summary>
         /// Power가 높은 Lion을 출력.

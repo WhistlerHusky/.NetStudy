@@ -173,6 +173,85 @@ C# 특성상, 베이스 클래스 생성자가 호출되기전에 자식 클래�
 
 ## Part 3 Working with Generics
 
+### 18. Always Define Constraints That Are Minimal and Sufficient
+Generic 클래스 혹은 메소드 작성할때 적당히 필요한 Constraint만 작성하고, New() 보다는 Default()를 사용하라
 
+#### where T : struct
+The type argument must be a value type. Any value type except Nullable can be specified. See Using Nullable Types (C# Programming Guide) for more information.
 
+#### where T : class
+The type argument must be a reference type, including any class, interface, delegate, or array type. (See note below.)
 
+#### where T : new() 
+The type argument must have a public parameterless constructor. When used in conjunction with other constraints, the new() constraint must be specified last.
+
+#### where T : [base class name]
+The type argument must be or derive from the specified base class.
+
+#### where T : [interface name]
+The type argument must be or implement the specified interface. Multiple interface constraints can be specified. The constraining interface can also be generic.
+
+#### where T : U
+The type argument supplied for T must be or derive from the argument supplied for U. This is called a naked type constraint.
+
+### 19. Specialize Generic Algorithms Using Runtime Type Checking
+여러 경우의 케이스가 올 수 있을경우, Runtime type checking을 잘 해줘라는 뜻인듯..
+아직 이런경우는 만나보지 못했는디. 이 챕터는 틈틈이 계속 일어볼것!
+
+### 20. Implement Ordering Relations with IComparable<T<T>> and IComparer<T<T>>
+이건 이전 버전도 그렇고 볼때만 이해가고, 안보면 까먹음.
+
+### 21. Always Create Generic Classes That Support Disposable Type Parameters
+만약 Generict Class 내부에서 객체 타입 T를 생성하면 해당 객체 타입 T가 IDispose를 구현했는지 안했는지 확인후에 
+필요하면 메모리 릭을 방지하기위해 Dispose를 호출하게끔 작성해야된다.
+이와같이 불편한 경우를 방지하기위해, 생성자 객체로 타입 T를 밖에서 생성해서 던저주고, 사용이 끝나면 밖에서 Dispose를 호출하게끔 하는것도 방법이다.
+그러면 최소한 Generic Class 내에서는 Dispose에 대한 구현을 하지 않아도된다.(반대로 밖에서 다 해줘야 하겠지만..)
+
+### 22. Support Generic Covariance and Contravariance
+아,,,covariance, contravariance는 볼때마다 헷갈린다.
+out(covariance) 키워드는 안에서 사용하지않고 해당 객체를 리턴만 하겠다는거
+in(contravariance) 키워드는 안에서 사용만하고 해당 객체를 리턴하지 않는거고 
+
+IEnumerable 은 객체를 안에서 사용하지 않고, 리턴만 함으로 out 키워드고
+IComparable 은 객체를 안에서 멤버변수끼리 혹은 함수를 '사용'하여 비교하기때문에 in 키워드 사용
+
+Covariance의 경우 부모 객체 변수로, 자식 인스턴스를 담을수 있는데, 이는 해당 인스턴스를 담기만 하고, 실제 사용하지 않기 때문에, 자식이 어떤 멤버변수나, 함수를 더 추가했던 상관이 없기 때문이고
+Contravariance의 경우 자식 객체 변수로, 부모 인스턴스를 담을수 있는데, 이는 자식이 부모의 멤버변수, 함수를 모두 가지고 있고, 사용가능하기 때문에 그렇다.
+
+### 23. Use Delegates to Define Method Constraints on Type Parameters
+음,,정확히 원서보고 이해가 잘안되는데,
+
+만약 Add 라는 기능이 있는 generic class를 만들때 아래와 같이 만들면
+```csharp
+interface IAdd<T>
+{
+    T Add(T left, T right);
+}
+
+class AddSomeThing<T> : IAdd<T>
+{
+    public T Add(T left, T right)
+    {
+        //무언가 특정한 작업을 여기서 해줘야되고 보통 Type T의 + operator을 호출할꺼임.
+    }
+}
+```
+그럼 위 클래스를 사용하기 위해선 아래와같이 closed generic type을 만들서 사용해야됨.
+```csharp
+new AddSomeThing<int> 
+```
+이런식으로 generic class를 사용하면, 이를 가져다 사용하는 사람이 혼란스러울수 있으니 아래와같이 Delegate를 이용하게 하면
+
+```csharp
+public static class Example
+{
+    public static T Add<T>(T left, T right, Func<T, T, T> AddFunc) => AddFunc(left, right);
+}
+```
+ 사용자가 편하게 사용가능
+```csharp
+int a = 6;
+int b = 7;
+int sum = Example.Add(a, b, (x, y) => x + y);
+```
+음,,,정확히 이해는 대충 이해했음.
