@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using NetSutdy.DesignPattern.Creational.Prototype;
+﻿using NetSutdy.DesignPattern.Creational.Prototype;
 using NetSutdy.DesignPattern.Shared.Units;
 using NetSutdy.DesignPattern.Structural.Bridge;
 

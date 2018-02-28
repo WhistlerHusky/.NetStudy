@@ -1,5 +1,4 @@
 ﻿using System;
-using System.CodeDom;
 
 namespace NetSutdy.DesignPattern.Behavioral.ChainOfResponsibility
 {

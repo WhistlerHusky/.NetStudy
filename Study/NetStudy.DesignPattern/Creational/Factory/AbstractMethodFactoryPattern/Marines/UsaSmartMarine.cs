@@ -1,5 +1,4 @@
 ﻿using NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.MarineSettingFactory;
-using NetSutdy.DesignPattern.Shared;
 using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.Marines

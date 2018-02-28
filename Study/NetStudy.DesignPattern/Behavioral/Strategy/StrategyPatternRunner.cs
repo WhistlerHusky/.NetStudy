@@ -1,6 +1,5 @@
 ﻿using System;
 using NetStudy.Core;
-using NetSutdy.DesignPattern.Shared;
 using NetSutdy.DesignPattern.Shared.Units;
 using NetSutdy.DesignPattern.Shared.Weapon;
 

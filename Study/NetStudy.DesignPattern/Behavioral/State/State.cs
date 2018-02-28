@@ -1,6 +1,4 @@
-﻿using System;
-using NetSutdy.DesignPattern.Shared.Units;
-using NetSutdy.DesignPattern.Shared.Weapon;
+﻿using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Behavioral.State
 {

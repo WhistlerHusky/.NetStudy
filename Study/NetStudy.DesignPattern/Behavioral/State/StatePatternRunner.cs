@@ -1,7 +1,5 @@
 ﻿using System;
 using NetStudy.Core;
-using NetSutdy.DesignPattern.Behavioral.Memento;
-using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Behavioral.State
 {

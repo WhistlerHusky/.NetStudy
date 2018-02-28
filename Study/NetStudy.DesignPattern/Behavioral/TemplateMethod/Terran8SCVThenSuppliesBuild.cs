@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace NetSutdy.DesignPattern.Behavioral.TemplateMethod
+﻿namespace NetSutdy.DesignPattern.Behavioral.TemplateMethod
 {
 
     public class Terran8SCVThenSuppliesBuild : TerranBuild

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Behavioral.Mediator

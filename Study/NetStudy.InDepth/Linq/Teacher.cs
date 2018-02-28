@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using NetStudy.Core;
-using System.Linq;
+﻿using System.Collections.Generic;
 
 namespace NetStudy.InDepth.Linq
 {

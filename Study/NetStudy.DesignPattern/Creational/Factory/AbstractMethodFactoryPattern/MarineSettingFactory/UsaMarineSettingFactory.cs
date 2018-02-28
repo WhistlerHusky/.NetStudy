@@ -1,5 +1,4 @@
-﻿using System;
-using NetSutdy.DesignPattern.Shared.Bulletproofvest;
+﻿using NetSutdy.DesignPattern.Shared.Bulletproofvest;
 using NetSutdy.DesignPattern.Shared.Weapon;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.AbstractMethodFactoryPattern.MarineSettingFactory

@@ -1,6 +1,4 @@
-﻿using NetSutdy.DesignPattern.Behavioral.Strategy;
-using NetSutdy.DesignPattern.Shared;
-using NetSutdy.DesignPattern.Shared.Units;
+﻿using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Structural.Decorator
 {

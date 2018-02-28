@@ -1,5 +1,4 @@
 ﻿using System;
-using NetStudy.Core;
 using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Structural.Facade

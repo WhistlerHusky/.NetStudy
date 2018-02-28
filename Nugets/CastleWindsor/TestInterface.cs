@@ -1,5 +1,4 @@
 ﻿using Castle.Core.Logging;
-using System;
 
 namespace CastleWindsor
 {

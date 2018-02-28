@@ -2,7 +2,6 @@
 using NetStudy.Core;
 using NetSutdy.DesignPattern.Shared.Units;
 using NetSutdy.DesignPattern.Shared.Weapon;
-using NetSutdy.DesignPattern.Structural.Decorator;
 
 namespace NetSutdy.DesignPattern.Structural.Composite
 {

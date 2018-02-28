@@ -1,5 +1,4 @@
-﻿using NetSutdy.DesignPattern.Shared.Units;
-using NetSutdy.DesignPattern.Shared.Weapon;
+﻿using NetSutdy.DesignPattern.Shared.Weapon;
 
 namespace NetSutdy.DesignPattern.Behavioral.Mediator
 {

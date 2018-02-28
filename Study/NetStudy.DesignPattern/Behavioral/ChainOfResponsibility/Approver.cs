@@ -1,6 +1,4 @@
-﻿using System.CodeDom;
-
-namespace NetSutdy.DesignPattern.Behavioral.ChainOfResponsibility
+﻿namespace NetSutdy.DesignPattern.Behavioral.ChainOfResponsibility
 {
     public abstract class Approver
     {

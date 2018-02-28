@@ -1,8 +1,4 @@
-﻿using System;
-using NetStudy.Core;
-using System.Linq;
-
-namespace NetStudy.InDepth.Linq
+﻿namespace NetStudy.InDepth.Linq
 {
     public class Student
     {

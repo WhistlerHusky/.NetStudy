@@ -20,8 +20,8 @@ IList<Expression> list = new List<Expression>();
     list.Add(new MarinExpression());
 ```
 
-int Interpret(int) 메소드는 그냥 주어진 미네랄도 각 유닛을 만들수 있는 수만 구하고,
-int CreateUnit(int) 은 실제로 주어진 미네랄도 각 유닛을 만들수 있는 수와, 그리고 남은 미네랄 (ref int)을 돌려준다.
+int Interpret(int) 메소드는 그냥 주어진 미네랄로 만들수 있는 각 유닛의 수만 구하고,
+int CreateUnit(int) 은 실제로 주어진 미네랄도 각 유닛을 만들수있는 수와, 그리고 남은 미네랄 (ref int)을 돌려준다.
 ```csharp
 public class BattleCruiserExpression : Expression
 {

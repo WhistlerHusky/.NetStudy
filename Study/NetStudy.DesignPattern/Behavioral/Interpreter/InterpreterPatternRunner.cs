@@ -1,7 +1,7 @@
-﻿using System;
+﻿using NetStudy.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using NetStudy.Core;
 
 namespace NetSutdy.DesignPattern.Behavioral.Interpreter
 {
@@ -20,10 +20,11 @@ namespace NetSutdy.DesignPattern.Behavioral.Interpreter
             Console.WriteLine($"If you create only, ");
             foreach (var unit in list)
             {
-                var availableUnitCount= unit.Interpret(currentMineral);
+                var availableUnitCount = unit.Interpret(currentMineral);
 
                 Console.WriteLine($"    {unit.GetType().Name.Replace("Expression", "")}, then {availableUnitCount} can be created");
             }
+
             Console.WriteLine();
 
             Console.WriteLine($"If you create as many as possible from {string.Join(" -> ",list.Select(x => x.GetType().Name.Replace("Expression", "")))}");

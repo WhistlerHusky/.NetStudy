@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace NetSutdy.DesignPattern.Shared.Units
+﻿namespace NetSutdy.DesignPattern.Shared.Units
 {
     public class Dropship : Troopship
     {

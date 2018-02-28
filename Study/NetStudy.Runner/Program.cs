@@ -1,11 +1,6 @@
-﻿using NetStudy.Core;
-using NetStudy.InDepth.Spans;
-using Redis;
+﻿using Elasticsearch_Demo;
+using NetStudy.Core;
 using System;
-using Microsoft.CodeAnalysis.CSharp.Scripting;
-using NetStudy.InDepth.CSharpScripting;
-using NetStudy.InDepth.DataStructure;
-using NetStudy.InDepth.Linq;
 
 namespace NetStudy.Runner
 {
@@ -47,8 +42,9 @@ namespace NetStudy.Runner
             //runner = new LinqRunner();
             //runner = new CSharpScriptingRunner();
             //Task.Run(async () => await CSharpScript.EvaluateAsync("Debug.WriteLine(\"Hello world!\")")).Wait();
-         
-        runner = new DataStructureRunner();
+            //runner = new DataStructureRunner();
+            runner = new ElasticsearchRunner();
+
             runner.Run();
 
             Console.ReadKey();

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <AssemblyName>Elasticsearch_Demo</AssemblyName>
+    <RootNamespace>Elasticsearch_Demo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elasticsearch.Net" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Study\NetStudy.Core\NetStudy.Core.csproj" />
+    <ProjectReference Include="..\Study\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj" />
+  </ItemGroup>
+
+</Project>

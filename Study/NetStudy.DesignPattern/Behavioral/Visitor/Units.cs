@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using NetStudy.Core;
-using NetSutdy.DesignPattern.Behavioral.TemplateMethod;
+﻿using System.Collections.Generic;
 using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Behavioral.Visitor

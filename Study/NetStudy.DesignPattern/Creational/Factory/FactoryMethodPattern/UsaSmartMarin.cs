@@ -1,5 +1,4 @@
-﻿using NetSutdy.DesignPattern.Shared;
-using NetSutdy.DesignPattern.Shared.Weapon;
+﻿using NetSutdy.DesignPattern.Shared.Weapon;
 using AttackableUnit = NetSutdy.DesignPattern.Shared.Units.AttackableUnit;
 
 namespace NetSutdy.DesignPattern.Creational.Factory.FactoryMethodPattern

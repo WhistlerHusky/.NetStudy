@@ -1,7 +1,4 @@
-﻿using NetSutdy.DesignPattern.Shared.Weapon;
-using System;
-
-namespace NetSutdy.DesignPattern.Shared.Units
+﻿namespace NetSutdy.DesignPattern.Shared.Units
 {
     public class Medic : Unit
     {
