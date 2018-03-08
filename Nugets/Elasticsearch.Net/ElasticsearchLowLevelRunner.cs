@@ -3,7 +3,7 @@ using NetStudy.Core;
 using NetSutdy.DesignPattern.Creational.Prototype;
 using System.Threading.Tasks;
 
-namespace Elasticsearch_Demo
+namespace Elasticsearch_LowLevel
 {
     public class ElasticsearchLowLevelRunner : IRunner
     {

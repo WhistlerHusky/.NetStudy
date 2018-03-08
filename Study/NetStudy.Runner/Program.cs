@@ -1,7 +1,5 @@
-﻿using Elasticsearch_Demo;
-using NetStudy.Core;
+﻿using NetStudy.Core;
 using System;
-using Elasticsearch_NEST;
 
 namespace NetStudy.Runner
 {
@@ -45,8 +43,9 @@ namespace NetStudy.Runner
             //Task.Run(async () => await CSharpScript.EvaluateAsync("Debug.WriteLine(\"Hello world!\")")).Wait();
             //runner = new DataStructureRunner();
             //runner = new ElasticsearchLowLevelRunner();
-            runner = new ElasticsearchHighLevelRunner();
-            runner.Run();
+            //runner = new ElasticsearchHighLevelRunner();
+            //runner = new ParallelRunner();
+            //runner.Run();
 
             Console.ReadKey();
         }

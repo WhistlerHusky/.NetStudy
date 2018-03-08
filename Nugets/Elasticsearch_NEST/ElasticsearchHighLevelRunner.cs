@@ -1,10 +1,10 @@
-﻿using Nest;
+﻿using System;
+using System.Threading.Tasks;
+using Nest;
 using NetStudy.Core;
 using NetSutdy.DesignPattern.Creational.Prototype;
-using System;
-using System.Threading.Tasks;
 
-namespace Elasticsearch_NEST
+namespace Elasticsearch_HighLevel_NEST
 {
     public class ElasticsearchHighLevelRunner : IRunner
     {

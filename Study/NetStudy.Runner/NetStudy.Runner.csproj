@@ -18,9 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Elasticsearch.Net\Elasticsearch_LowLevel.csproj" />
-    <ProjectReference Include="..\..\Elasticsearch_NEST\Elasticsearch_HighLevel_NEST.csproj" />
+    <ProjectReference Include="..\..\Nugets\BenchmarkDotNet\BenchmarkDotNet.csproj" />
     <ProjectReference Include="..\..\Nugets\CastleWindsor\CastleWindsor.csproj" />
+    <ProjectReference Include="..\..\Nugets\Elasticsearch_NEST\Elasticsearch_HighLevel_NEST.csproj" />
     <ProjectReference Include="..\..\Nugets\Redis\Redis.csproj" />
     <ProjectReference Include="..\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj" />
     <ProjectReference Include="..\NetStudy.InDepth\NetStudy.InDepth.csproj" />
