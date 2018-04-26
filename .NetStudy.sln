@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkDotNet.Netframewor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrackingTheCodingInterviews", "Books\CrackingTheCodingInterviews\CrackingTheCodingInterviews.csproj", "{CAC4C692-7A29-44C6-AE4A-8928EAEF66A4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreLINQ_Test", "Nugets\MoreLINQ_Test\MoreLINQ_Test.csproj", "{5A6E5591-05F1-44C9-8F39-55292544C582}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{CAC4C692-7A29-44C6-AE4A-8928EAEF66A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAC4C692-7A29-44C6-AE4A-8928EAEF66A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAC4C692-7A29-44C6-AE4A-8928EAEF66A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A6E5591-05F1-44C9-8F39-55292544C582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6E5591-05F1-44C9-8F39-55292544C582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6E5591-05F1-44C9-8F39-55292544C582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6E5591-05F1-44C9-8F39-55292544C582}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +151,7 @@ Global
 		{E6C22EF7-BB2D-496B-8480-B7C6EE20F654} = {1B0BB06F-EFEA-4367-89E8-559C4A4A1F5E}
 		{4A46E3BC-3F66-4BCF-A652-FB7E0F8B1763} = {1B0BB06F-EFEA-4367-89E8-559C4A4A1F5E}
 		{CAC4C692-7A29-44C6-AE4A-8928EAEF66A4} = {7A0AF2D2-84B3-4880-B225-665F661A7BDA}
+		{5A6E5591-05F1-44C9-8F39-55292544C582} = {1B0BB06F-EFEA-4367-89E8-559C4A4A1F5E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2E0FFB4-5289-4AD9-BEB6-ECDD08DBBB60}

@@ -47,35 +47,6 @@ namespace NetStudy.InDepth.DataStructure
                 }
             }
         }
-        void PostOrderWithStack(TreeNode treeNode)
-        {
-            if (treeNode == null)
-            {
-                return;
-            }
-            Stack<TreeNode> stack = new Stack<TreeNode>();
-            Stack<TreeNode> stack2 = new Stack<TreeNode>();
-            stack.Push(treeNode);
-            while (stack.Count > 0)
-            {
-                var currentNode = stack.Pop();
-                stack2.Push(currentNode);
-                //PostORder Left first
-                if (currentNode.Left != null)
-                {
-                    stack.Push(currentNode.Left);
-                }
-                if (currentNode.Right != null)
-                {
-                    stack.Push(currentNode.Right);
-                }
-            }
-            while (stack2.Count > 0)
-            {
-                var currentNode = stack2.Pop();
-                Console.WriteLine(currentNode.Val);
-            }
-        }
 
         void PreOrderWithStack(TreeNode treeNode)
         {
@@ -126,6 +97,36 @@ namespace NetStudy.InDepth.DataStructure
             }
         }
 
+        void PostOrderWithStack(TreeNode treeNode)
+        {
+            if (treeNode == null)
+            {
+                return;
+            }
+            Stack<TreeNode> stack = new Stack<TreeNode>();
+            Stack<TreeNode> stack2 = new Stack<TreeNode>();
+            stack.Push(treeNode);
+            while (stack.Count > 0)
+            {
+                var currentNode = stack.Pop();
+                stack2.Push(currentNode);
+                //PostORder Left first
+                if (currentNode.Left != null)
+                {
+                    stack.Push(currentNode.Left);
+                }
+                if (currentNode.Right != null)
+                {
+                    stack.Push(currentNode.Right);
+                }
+            }
+            while (stack2.Count > 0)
+            {
+                var currentNode = stack2.Pop();
+                Console.WriteLine(currentNode.Val);
+            }
+        }
+
         void PreOrderWithRecursion(TreeNode treeNode)
         {
             if (treeNode == null)
@@ -138,6 +139,17 @@ namespace NetStudy.InDepth.DataStructure
             PreOrderWithRecursion(treeNode.Right);
         }
 
+        void InOrderWithRecursion(TreeNode treeNode)
+        {
+            if (treeNode == null)
+            {
+                return;
+            }
+            InOrderWithRecursion(treeNode.Left);
+            Console.WriteLine(treeNode.Val);
+            InOrderWithRecursion(treeNode.Right);
+        }
+
         void PostOrderWithRecursion(TreeNode treeNode)
         {
             if (treeNode == null)
@@ -148,17 +160,6 @@ namespace NetStudy.InDepth.DataStructure
             PostOrderWithRecursion(treeNode.Left);
             PostOrderWithRecursion(treeNode.Right);
             Console.WriteLine(treeNode.Val);
-        }
-
-        void InOrderWithRecursion(TreeNode treeNode)
-        {
-            if (treeNode == null)
-            {
-                return;
-            }
-            InOrderWithRecursion(treeNode.Left);
-            Console.WriteLine(treeNode.Val);
-            InOrderWithRecursion(treeNode.Right);
         }
 
         public TreeNode GetRootNode()
