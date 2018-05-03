@@ -19,7 +19,7 @@ namespace NetStudy.InDepth.Spans
 
             for (int i = 0; i < lastName.Length; i++)
             {
-                Console.Write(lastName[i]); // prints 3,4,5
+                Console.Write(lastName[i]); // prints Han
             }
         }
     }
