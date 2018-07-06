@@ -1,5 +1,6 @@
 ﻿using NetStudy.Core;
 using System;
+using AutoMapper_Test;
 
 namespace NetStudy.Runner
 {
@@ -45,7 +46,11 @@ namespace NetStudy.Runner
             //runner = new ElasticsearchLowLevelRunner();
             //runner = new ElasticsearchHighLevelRunner();
             //runner = new ParallelRunner();
-            //runner.Run();
+            //runner = new ResharperRunner();
+            //runner = new NewLanguageFeaturesRunner();
+            runner = new AutoMapperRunner();
+            
+            runner.Run();
 
             Console.ReadKey();
         }
