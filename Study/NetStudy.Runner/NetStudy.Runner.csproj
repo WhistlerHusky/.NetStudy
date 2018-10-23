@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\NetStudy.Algorithms\NetStudy.Algorithms.csproj" />
     <ProjectReference Include="..\..\Nugets\AutoMapper_Test\AutoMapper_Test.csproj" />
     <ProjectReference Include="..\..\Nugets\BenchmarkDotNet\BenchmarkDotNet.csproj" />
     <ProjectReference Include="..\..\Nugets\CastleWindsor\CastleWindsor.csproj" />

@@ -59,6 +59,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper_Test", "Nugets\A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSubstitute_Test", "Nugets\NSubstitute_Test\NSubstitute_Test.csproj", "{B85FFD71-01B0-4D3F-B0F7-B461573E352C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStudy.Algorithms", "NetStudy.Algorithms\NetStudy.Algorithms.csproj", "{7DFA10CB-B0EF-43E2-96F9-029AA21C57EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{B85FFD71-01B0-4D3F-B0F7-B461573E352C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B85FFD71-01B0-4D3F-B0F7-B461573E352C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B85FFD71-01B0-4D3F-B0F7-B461573E352C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFA10CB-B0EF-43E2-96F9-029AA21C57EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFA10CB-B0EF-43E2-96F9-029AA21C57EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFA10CB-B0EF-43E2-96F9-029AA21C57EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFA10CB-B0EF-43E2-96F9-029AA21C57EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,6 +186,7 @@ Global
 		{98336032-7416-4E2F-BE64-F5ACFBC359A3} = {1B0BB06F-EFEA-4367-89E8-559C4A4A1F5E}
 		{BE73E7B3-B2AE-43FA-B53F-CAC9D212B419} = {1B0BB06F-EFEA-4367-89E8-559C4A4A1F5E}
 		{B85FFD71-01B0-4D3F-B0F7-B461573E352C} = {1B0BB06F-EFEA-4367-89E8-559C4A4A1F5E}
+		{7DFA10CB-B0EF-43E2-96F9-029AA21C57EF} = {A21A5882-83EA-4E47-BC63-8E9F76EA481E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2E0FFB4-5289-4AD9-BEB6-ECDD08DBBB60}

@@ -8,16 +8,16 @@ namespace BenchmarkDotNet.Netframework.Console
 {
     public class ForeachTest
     {
-        public int[] numbers;
-        public int[] numbers2;
-        private long totalSize = 0;
-        private long totalSize2 = 0;
+        public int[] Numbers;
+        public int[] Numbers2;
+        private long _totalSize = 0;
+        private long _totalSize2 = 0;
 
         [GlobalSetup]
         public void Setup()
         {
-            numbers = Enumerable.Range(1, 10).ToArray();
-            numbers2 = Enumerable.Range(1, 10).ToArray();
+            Numbers = Enumerable.Range(1, 10).ToArray();
+            Numbers2 = Enumerable.Range(1, 10).ToArray();
         }
 
         [Benchmark]

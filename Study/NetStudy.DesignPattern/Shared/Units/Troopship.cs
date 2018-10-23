@@ -5,13 +5,13 @@ namespace NetSutdy.DesignPattern.Shared.Units
 {
     public class Troopship : Unit
     {
-        protected IList<Unit> _units = new List<Unit>();
+        protected IList<Unit> Units = new List<Unit>();
 
         public bool TryLoadUnit(Unit unit)
         {
-            if (_units.Count < 8)
+            if (Units.Count < 8)
             {
-                _units.Add(unit);
+                Units.Add(unit);
                 Console.WriteLine($"{unit.Name} get on the {GetType().Name}");
                 return true;
             }

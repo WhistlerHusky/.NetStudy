@@ -2,7 +2,7 @@
 
 namespace NetSutdy.DesignPattern.Behavioral.Iterator
 {
-    public interface Iterator
+    public interface ITerator
     {
         Unit First();
         Unit Next();

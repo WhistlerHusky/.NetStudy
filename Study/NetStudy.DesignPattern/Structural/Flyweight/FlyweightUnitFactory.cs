@@ -6,19 +6,19 @@ namespace NetSutdy.DesignPattern.Structural.Flyweight
 {
     public class FlyweightUnitFactory 
     {
-        private IDictionary<Type, Unit> Flyweights = new Dictionary<Type, Unit>();
+        private IDictionary<Type, Unit> _flyweights = new Dictionary<Type, Unit>();
 
         public FlyweightUnitFactory()
         {
             var marine = new SmartMarine();
             var firebat = new FireBat();
 
-            Flyweights.Add(marine.GetType(), marine);
-            Flyweights.Add(firebat.GetType(), firebat);
+            _flyweights.Add(marine.GetType(), marine);
+            _flyweights.Add(firebat.GetType(), firebat);
         }
         public Unit GetFlyweight(Type unitType)
         {
-            return Flyweights[unitType];
+            return _flyweights[unitType];
         }
     }
 }

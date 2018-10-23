@@ -3,7 +3,7 @@ using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Behavioral.Iterator
 {
-    public class UnitArrayIterator : Iterator
+    public class UnitArrayIterator : ITerator
     {
         int _current = 0;
         private Unit[] _units;

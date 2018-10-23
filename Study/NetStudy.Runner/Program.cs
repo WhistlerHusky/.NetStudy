@@ -1,6 +1,6 @@
-﻿using NetStudy.Core;
+﻿using NetStudy.Algorithms.Btree;
+using NetStudy.Core;
 using System;
-using AutoMapper_Test;
 
 namespace NetStudy.Runner
 {
@@ -48,7 +48,8 @@ namespace NetStudy.Runner
             //runner = new ParallelRunner();
             //runner = new ResharperRunner();
             //runner = new NewLanguageFeaturesRunner();
-            runner = new AutoMapperRunner();
+            //runner = new AutoMapperRunner();
+            runner = new BTreeRunner();
             
             runner.Run();
 

@@ -14,6 +14,7 @@ namespace NSubstitute_Test
             var testMarin = Substitute.For<AttackableUnit>();
             var testWeapon = Substitute.For<IWeapon>();
             var testFirebat = Substitute.For<AttackableUnit>();
+
             testFirebat.CurrentHp = 35;
             testWeapon.Damage.Returns(10);
             testMarin.SetWeapon(testWeapon);

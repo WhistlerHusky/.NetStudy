@@ -5,7 +5,7 @@ namespace NetSutdy.DesignPattern.Structural.Proxy
 {
     public class ProxyBattleNet : IBattleNet
     {
-        private int count;
+        private int _count;
 
         private BattleNet _battle;
 
@@ -14,23 +14,23 @@ namespace NetSutdy.DesignPattern.Structural.Proxy
             if (_battle == null)
             {
                 _battle = new BattleNet();
-                count = 1;
+                _count = 1;
             }
             else
             {
-                count++;
+                _count++;
             }
         }
 
         public void DisconnectFromBattleNet()
         {
-            if (count == 1)
+            if (_count == 1)
             {
                 _battle.DisconnectFromBattleNet();
             }
             else
             {
-                count--;
+                _count--;
             }
         }
 

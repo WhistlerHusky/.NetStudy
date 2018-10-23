@@ -4,7 +4,7 @@ using NetSutdy.DesignPattern.Shared.Units;
 
 namespace NetSutdy.DesignPattern.Behavioral.Iterator
 {
-    public class UnitDictionaryIterator : Iterator
+    public class UnitDictionaryIterator : ITerator
     {
         int _current = 0;
         private IDictionary<int, Unit> _units;

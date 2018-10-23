@@ -14,7 +14,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Iterator
             marins[1] = new StupidMarine{ Name = "StupidMarine2" };
             marins[2] = new StupidMarine{ Name = "StupidMarine3" };
 
-            Iterator iterator = new UnitArrayIterator(marins);
+            ITerator iterator = new UnitArrayIterator(marins);
             Display(iterator);
 
             IList<Unit> firebats = new List<Unit>
@@ -39,7 +39,7 @@ namespace NetSutdy.DesignPattern.Behavioral.Iterator
             Display(iterator);
         }
 
-        private static void Display(Iterator iterator)
+        private static void Display(ITerator iterator)
         {
             for (Unit unit = iterator.First(); !iterator.IsDone(); unit = iterator.Next())
             {
