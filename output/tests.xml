@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="11/08/2018 15:44:29">
+  <assembly name="C:\Users\jhan\source\repos\.NetStudy\tests\MoreLINQ_Test\bin\Debug\net461\MoreLINQ_Test.DLL" environment="64-bit .NET 4.0.30319.42000 [collection-per-class, parallel (12 threads)]" test-framework="xUnit.net 2.4.1.0" run-date="2018-11-08" run-time="15:44:26" config-file="C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.console.exe.Config" total="2" passed="2" failed="0" skipped="0" time="0.349" errors="0">
+    <errors />
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for MoreLINQ_Test.MoreLINQ_Test" time="0.122">
+      <test name="MoreLINQ_Test.MoreLINQ_Test.Should_Returns_Until_First_B(input: \&quot;AAABBCCC\&quot;, expected: \&quot;AAAB\&quot;)" type="MoreLINQ_Test.MoreLINQ_Test" method="Should_Returns_Until_First_B" time="0.1195284" result="Pass" />
+      <test name="MoreLINQ_Test.MoreLINQ_Test.Should_Returns_First_Three_A(input: \&quot;AAABBCCC\&quot;, expected: \&quot;AAA\&quot;)" type="MoreLINQ_Test.MoreLINQ_Test" method="Should_Returns_First_Three_A" time="0.0029447" result="Pass" />
+    </collection>
+  </assembly>
+  <assembly name="C:\Users\jhan\source\repos\.NetStudy\tests\NSubstitute_Test\bin\Debug\net461\NSubstitute_Test.DLL" environment="64-bit .NET 4.0.30319.42000 [collection-per-class, parallel (12 threads)]" test-framework="xUnit.net 2.4.1.0" run-date="2018-11-08" run-time="15:44:27" config-file="C:\Users\jhan\source\repos\.NetStudy\tests\NSubstitute_Test\bin\Debug\net461\NSubstitute_Test.dll.config" total="1" passed="1" failed="0" skipped="0" time="0.709" errors="0">
+    <errors />
+    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for NSubstitute_Test.NSubstituteRunner_Test" time="0.593">
+      <test name="NSubstitute_Test.NSubstituteRunner_Test.ShouldWorkWithNSubstite" type="NSubstitute_Test.NSubstituteRunner_Test" method="ShouldWorkWithNSubstite" time="0.5928018" result="Pass" />
+    </collection>
+  </assembly>
+  <assembly name="C:\Users\jhan\source\repos\.NetStudy\tests\NukeAutomation_Test\bin\Debug\net461\NukeAutomation_Test.DLL" environment="64-bit .NET 4.0.30319.42000 [collection-per-class, parallel (12 threads)]" test-framework="xUnit.net 2.4.1.0" run-date="2018-11-08" run-time="15:44:28" config-file="C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.console.exe.Config" total="2" passed="2" failed="0" skipped="0" time="0.206" errors="0">
+    <errors />
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for NukeAutomation_Test.Nuke_Automation_Test" time="0.069">
+      <test name="NukeAutomation_Test.Nuke_Automation_Test.ShouldBeTheSame(a: 1, b: 1)" type="NukeAutomation_Test.Nuke_Automation_Test" method="ShouldBeTheSame" time="0.0687867" result="Pass" />
+      <test name="NukeAutomation_Test.Nuke_Automation_Test.ShouldBeTheSame(a: 2, b: 2)" type="NukeAutomation_Test.Nuke_Automation_Test" method="ShouldBeTheSame" time="0.0000822" result="Pass" />
+    </collection>
+  </assembly>
+  <assembly name="C:\Users\jhan\source\repos\.NetStudy\tests\Resharper_Test\bin\Debug\net461\Resharper_Test.DLL" environment="64-bit .NET 4.0.30319.42000 [collection-per-class, parallel (12 threads)]" test-framework="xUnit.net 2.4.1.0" run-date="2018-11-08" run-time="15:44:29" config-file="C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.console.exe.Config" total="2" passed="2" failed="0" skipped="0" time="0.136" errors="0">
+    <errors />
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for Resharper_Test.ResharperRunner" time="0.005">
+      <test name="Resharper_Test.ResharperRunner.ParameterShouldNotBeNull(input: \&quot;Input exist\&quot;)" type="Resharper_Test.ResharperRunner" method="ParameterShouldNotBeNull" time="0.0043989" result="Pass" />
+      <test name="Resharper_Test.ResharperRunner.ParameterShouldNotBeNull(input: null)" type="Resharper_Test.ResharperRunner" method="ParameterShouldNotBeNull" time="0.0004776" result="Pass" />
+    </collection>
+  </assembly>
+</assemblies>

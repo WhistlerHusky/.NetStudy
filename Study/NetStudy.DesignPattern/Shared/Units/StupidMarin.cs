@@ -11,7 +11,7 @@ namespace NetSutdy.DesignPattern.Shared.Units
             _weapon = new Gun();
         }
         
-        public void Fire(Unit unit)
+        public override void Fire(Unit unit)
         {
             int initDamage = 5;
 

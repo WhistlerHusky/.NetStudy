@@ -6,7 +6,7 @@ namespace BenchmarkDotNet.Netframework.Console
     {
         static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<ForeachTest>();
+            BenchmarkRunner.Run<ForeachTest>();
         }
     }
 }

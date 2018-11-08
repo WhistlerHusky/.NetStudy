@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="FF-41-88-6A-C0-F3-85-4B-F2-BA-9E-EF-41-EE-D4-07-50-7D-EF-0B">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:13:54.9543308Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-2C-D7-E4-23-35-C1-89-CC-E5-32-F0-32-CD-EA-0D-E5-30-40-DD">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.console.exe</ModulePath>
+      <ModuleTime>2018-10-29T08:17:04Z</ModuleTime>
+      <ModuleName>xunit.console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-2D-A2-89-60-CC-04-D2-4C-B8-45-9A-16-30-03-0D-06-72-A1-67">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:02Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7B-9A-AB-FE-2F-2E-1F-20-5A-36-8B-C0-38-08-BB-92-E3-B7-A8-18">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.8520929Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-8D-DE-19-A8-B4-D0-71-C3-FE-50-25-D0-B4-5A-BA-2B-A9-BF-CC">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:02Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-D5-C6-DC-0C-59-DA-6B-C8-40-22-29-40-86-10-C6-40-6D-57-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.7427109Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EE-87-E3-8B-35-D7-7B-51-75-59-60-AC-9C-42-7D-75-33-40-43-72">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.3885028Z</ModuleTime>
+      <ModuleName>System.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F2-26-5B-FA-55-E9-5B-BC-DD-3A-32-56-2C-38-71-11-1A-8E-6D-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:17.0290261Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E5-39-13-52-2A-0A-F1-84-D3-B0-BD-F2-5A-59-93-34-9C-46-18-65">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.runner.reporters.net452.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:02Z</ModuleTime>
+      <ModuleName>xunit.runner.reporters.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="19-6F-A5-C6-C2-4E-32-27-A2-D0-61-D8-30-02-1D-0F-63-C0-78-46">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.1697369Z</ModuleTime>
+      <ModuleName>System.Net.Http</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5D-11-B3-06-06-08-5F-E2-66-89-AE-C6-ED-96-26-D1-36-92-44-EF">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2018-08-10T20:44:44.6448853Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2A-F4-1C-14-5D-7A-74-B3-03-8B-1D-2A-59-DC-B6-BE-1D-C8-EF-54">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.9508953Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-8D-DE-19-A8-B4-D0-71-C3-FE-50-25-D0-B4-5A-BA-2B-A9-BF-CC">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\ccad5991-0efc-40dd-b8cf-4c037ad8c50f\ccad5991-0efc-40dd-b8cf-4c037ad8c50f\assembly\dl3\725bd098\00531ac5_5f6fd401\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:25.803503Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7B-9A-AB-FE-2F-2E-1F-20-5A-36-8B-C0-38-08-BB-92-E3-B7-A8-18">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.8520929Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-D5-C6-DC-0C-59-DA-6B-C8-40-22-29-40-86-10-C6-40-6D-57-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.7427109Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="58-55-66-D0-DC-A4-00-A5-4A-E2-F0-76-1E-CA-EE-68-76-0D-29-2E">
+      <ModulePath>C:\Users\jhan\source\repos\.NetStudy\tests\MoreLINQ_Test\bin\Debug\net461\MoreLINQ_Test.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:18.9090973Z</ModuleTime>
+      <ModuleName>MoreLINQ_Test</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-8D-DE-19-A8-B4-D0-71-C3-FE-50-25-D0-B4-5A-BA-2B-A9-BF-CC">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:02Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5F-CF-DD-0E-70-9D-BB-8C-09-CC-2C-A3-F2-CB-26-21-92-02-AD-EB">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\a4913dd3-68d0-4458-83de-a6d75443d198\a4913dd3-68d0-4458-83de-a6d75443d198\assembly\dl3\c767099f\00d722ed_ce3cd401\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:26.1009592Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-38-FA-64-8C-19-3B-5A-2F-20-D8-11-BB-40-9E-11-85-D9-1B-CD">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\a4913dd3-68d0-4458-83de-a6d75443d198\a4913dd3-68d0-4458-83de-a6d75443d198\assembly\dl3\64d964b1\0026e9c3_5f6fd401\xunit.execution.desktop.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:26.1135139Z</ModuleTime>
+      <ModuleName>xunit.execution.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-D5-C6-DC-0C-59-DA-6B-C8-40-22-29-40-86-10-C6-40-6D-57-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.7427109Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="58-55-66-D0-DC-A4-00-A5-4A-E2-F0-76-1E-CA-EE-68-76-0D-29-2E">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\a4913dd3-68d0-4458-83de-a6d75443d198\a4913dd3-68d0-4458-83de-a6d75443d198\assembly\dl3\72e2658a\9d341dd2_a377d401\MoreLINQ_Test.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:26.1499556Z</ModuleTime>
+      <ModuleName>MoreLINQ_Test</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-2C-D7-E4-23-35-C1-89-CC-E5-32-F0-32-CD-EA-0D-E5-30-40-DD">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.console.exe</ModulePath>
+      <ModuleTime>2018-10-29T08:17:04Z</ModuleTime>
+      <ModuleName>xunit.console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EC-C0-2D-AD-FC-F0-70-BA-BC-F3-D2-B5-83-9B-3E-CD-9E-91-10-AA">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\a4913dd3-68d0-4458-83de-a6d75443d198\a4913dd3-68d0-4458-83de-a6d75443d198\assembly\dl3\bbfa40ce\00f9b7c2_5f6fd401\xunit.core.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:26.2609759Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7B-9A-AB-FE-2F-2E-1F-20-5A-36-8B-C0-38-08-BB-92-E3-B7-A8-18">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.8520929Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F1-67-10-FE-CA-06-2B-45-18-C0-DB-E8-DB-07-A4-7E-5B-25-BD-51">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.1697369Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F4-54-C7-59-FD-61-E7-47-4E-0A-64-35-96-3E-28-5D-B6-8C-21-86">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.8102601Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-38-FA-64-8C-19-3B-5A-2F-20-D8-11-BB-40-9E-11-85-D9-1B-CD">
+      <ModulePath>C:\Users\jhan\source\repos\.NetStudy\tests\MoreLINQ_Test\bin\Debug\net461\xunit.execution.desktop.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:00Z</ModuleTime>
+      <ModuleName>xunit.execution.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EC-C0-2D-AD-FC-F0-70-BA-BC-F3-D2-B5-83-9B-3E-CD-9E-91-10-AA">
+      <ModulePath>C:\Users\jhan\source\repos\.NetStudy\tests\MoreLINQ_Test\bin\Debug\net461\xunit.core.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:16:58Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F1-67-10-FE-CA-06-2B-45-18-C0-DB-E8-DB-07-A4-7E-5B-25-BD-51">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.1697369Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F4-54-C7-59-FD-61-E7-47-4E-0A-64-35-96-3E-28-5D-B6-8C-21-86">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.8102601Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="26-E0-34-D3-A9-C4-33-7A-2B-12-1B-03-1E-48-23-95-AB-44-04-80">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:19.74798Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-83-11-F0-BE-0C-4A-A2-E7-49-98-89-7D-9D-A5-9B-BA-83-BA-E0">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Linq\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.2634939Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B9-57-39-EF-A9-2C-81-B9-FA-53-98-EE-58-37-05-4A-03-FE-83-1F">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\a4913dd3-68d0-4458-83de-a6d75443d198\a4913dd3-68d0-4458-83de-a6d75443d198\assembly\dl3\75ceeb55\00748345_bf0fd401\MoreLinq.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.0685678Z</ModuleTime>
+      <ModuleName>MoreLinq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7A-67-69-0F-81-C1-A5-E8-89-2F-27-27-76-B4-59-C0-3D-80-C7-B0">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</ModulePath>
+      <ModuleTime>2018-08-10T20:44:49.8219987Z</ModuleTime>
+      <ModuleName>System.Data</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F2-26-5B-FA-55-E9-5B-BC-DD-3A-32-56-2C-38-71-11-1A-8E-6D-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:17.0290261Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-E6-16-C1-FA-43-EA-35-C2-A8-E3-B0-87-8F-01-79-B7-F8-94-17">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\a4913dd3-68d0-4458-83de-a6d75443d198\a4913dd3-68d0-4458-83de-a6d75443d198\assembly\dl3\b5614ac0\00fd8bd3_3876d401\Shouldly.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.1145556Z</ModuleTime>
+      <ModuleName>Shouldly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-8D-DE-19-A8-B4-D0-71-C3-FE-50-25-D0-B4-5A-BA-2B-A9-BF-CC">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\fe4934a9-2319-46d8-9baa-da30511f2d96\fe4934a9-2319-46d8-9baa-da30511f2d96\assembly\dl3\ac3f8686\00531ac5_5f6fd401\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.2869608Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7B-9A-AB-FE-2F-2E-1F-20-5A-36-8B-C0-38-08-BB-92-E3-B7-A8-18">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.8520929Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-D5-C6-DC-0C-59-DA-6B-C8-40-22-29-40-86-10-C6-40-6D-57-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.7427109Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="89-C3-D9-34-A6-5D-43-C5-E2-74-0F-A2-71-16-FF-4B-E4-F3-58-2C">
+      <ModulePath>C:\Users\jhan\source\repos\.NetStudy\tests\NSubstitute_Test\bin\Debug\net461\NSubstitute_Test.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:20.006262Z</ModuleTime>
+      <ModuleName>NSubstitute_Test</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-8D-DE-19-A8-B4-D0-71-C3-FE-50-25-D0-B4-5A-BA-2B-A9-BF-CC">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:02Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="39-DB-4E-F6-A9-81-08-00-33-8D-EC-91-F5-56-FB-4D-0A-ED-99-9F">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\7becd7ec\006141cc_5f6fd401\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.4220837Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-38-FA-64-8C-19-3B-5A-2F-20-D8-11-BB-40-9E-11-85-D9-1B-CD">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\94d15c97\0026e9c3_5f6fd401\xunit.execution.desktop.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.4345678Z</ModuleTime>
+      <ModuleName>xunit.execution.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-D5-C6-DC-0C-59-DA-6B-C8-40-22-29-40-86-10-C6-40-6D-57-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.7427109Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="89-C3-D9-34-A6-5D-43-C5-E2-74-0F-A2-71-16-FF-4B-E4-F3-58-2C">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\a7f3cfc4\9c9ec4d2_a377d401\NSubstitute_Test.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.4619314Z</ModuleTime>
+      <ModuleName>NSubstitute_Test</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AB-51-87-D9-EA-B7-62-25-F7-5B-CB-F6-0B-04-8D-E1-52-75-6F-37">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\1375b0c2\006141cc_5f6fd401\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.4715696Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-2C-D7-E4-23-35-C1-89-CC-E5-32-F0-32-CD-EA-0D-E5-30-40-DD">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.console.exe</ModulePath>
+      <ModuleTime>2018-10-29T08:17:04Z</ModuleTime>
+      <ModuleName>xunit.console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EC-C0-2D-AD-FC-F0-70-BA-BC-F3-D2-B5-83-9B-3E-CD-9E-91-10-AA">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\53857e3c\00f9b7c2_5f6fd401\xunit.core.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.4849223Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7B-9A-AB-FE-2F-2E-1F-20-5A-36-8B-C0-38-08-BB-92-E3-B7-A8-18">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.8520929Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="69-9F-32-65-DD-47-FC-73-2C-FD-7E-C9-16-C9-35-DE-D0-57-39-A3">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\ab28ebfe\00f7b177_1251d401\System.Runtime.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.5010103Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B7-1D-3F-3E-98-7D-D0-3B-33-21-8C-C9-79-1C-79-06-42-BB-F6-6D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\netstandard\v4.0_2.0.0.0__cc7b13ffcd2ddd51\netstandard.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.794634Z</ModuleTime>
+      <ModuleName>netstandard</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="01-1D-15-F0-0C-7F-23-33-31-2A-1E-F3-C6-B6-73-81-B8-7A-5F-B7">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\3cd80328\0043ed72_1251d401\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.5309911Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="11-D2-77-65-59-17-94-AE-49-84-A8-CD-FD-D4-11-C4-71-0B-C7-0B">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\3d1dc97e\00701e74_1251d401\System.Collections.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.6269242Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="31-B7-BD-26-80-C5-54-BD-38-77-57-47-DA-9D-2A-49-68-87-73-1A">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\62819995\b9af77d2_a377d401\NetSutdy.DesignPattern.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.7460033Z</ModuleTime>
+      <ModuleName>NetSutdy.DesignPattern</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="EA-32-1D-21-23-A2-7A-BC-77-95-03-D6-A7-CD-96-61-C7-2B-4C-AE">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\ad326ec5\00faab7f_884fd301\NSubstitute.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.7540214Z</ModuleTime>
+      <ModuleName>NSubstitute</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-E6-16-C1-FA-43-EA-35-C2-A8-E3-B0-87-8F-01-79-B7-F8-94-17">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\f9f15426\00fd8bd3_3876d401\Shouldly.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.7709168Z</ModuleTime>
+      <ModuleName>Shouldly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="56-AB-E3-3E-B0-AA-95-3F-45-FB-44-1F-D0-94-F5-7C-AB-43-67-F0">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\23e8f991-1a74-4b29-8a07-4e47720f99c4\23e8f991-1a74-4b29-8a07-4e47720f99c4\assembly\dl3\4c9c3ff2\00914277_1b38d301\Castle.Core.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:27.7899207Z</ModuleTime>
+      <ModuleName>Castle.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2A-F4-1C-14-5D-7A-74-B3-03-8B-1D-2A-59-DC-B6-BE-1D-C8-EF-54">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.9508953Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F2-26-5B-FA-55-E9-5B-BC-DD-3A-32-56-2C-38-71-11-1A-8E-6D-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:17.0290261Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>DynamicProxyGenAssembly2</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-8D-DE-19-A8-B4-D0-71-C3-FE-50-25-D0-B4-5A-BA-2B-A9-BF-CC">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\21f37c70-7f28-4f9e-8de6-d65eee5589d2\21f37c70-7f28-4f9e-8de6-d65eee5589d2\assembly\dl3\998b2ab0\00531ac5_5f6fd401\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:28.4276101Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7B-9A-AB-FE-2F-2E-1F-20-5A-36-8B-C0-38-08-BB-92-E3-B7-A8-18">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.8520929Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-D5-C6-DC-0C-59-DA-6B-C8-40-22-29-40-86-10-C6-40-6D-57-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.7427109Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="EB-E3-5B-9B-49-23-D8-B8-E0-21-30-E4-CE-A2-0C-B0-8F-C8-9A-51">
+      <ModulePath>C:\Users\jhan\source\repos\.NetStudy\tests\NukeAutomation_Test\bin\Debug\net461\NukeAutomation_Test.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:18.8331576Z</ModuleTime>
+      <ModuleName>NukeAutomation_Test</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-8D-DE-19-A8-B4-D0-71-C3-FE-50-25-D0-B4-5A-BA-2B-A9-BF-CC">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:02Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="39-DB-4E-F6-A9-81-08-00-33-8D-EC-91-F5-56-FB-4D-0A-ED-99-9F">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\ab9276c0-24e2-4666-9265-db2597775852\ab9276c0-24e2-4666-9265-db2597775852\assembly\dl3\a800cba5\006141cc_5f6fd401\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:28.5639151Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-38-FA-64-8C-19-3B-5A-2F-20-D8-11-BB-40-9E-11-85-D9-1B-CD">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\ab9276c0-24e2-4666-9265-db2597775852\ab9276c0-24e2-4666-9265-db2597775852\assembly\dl3\484ee963\0026e9c3_5f6fd401\xunit.execution.desktop.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:28.5770622Z</ModuleTime>
+      <ModuleName>xunit.execution.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-D5-C6-DC-0C-59-DA-6B-C8-40-22-29-40-86-10-C6-40-6D-57-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.7427109Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="EB-E3-5B-9B-49-23-D8-B8-E0-21-30-E4-CE-A2-0C-B0-8F-C8-9A-51">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\ab9276c0-24e2-4666-9265-db2597775852\ab9276c0-24e2-4666-9265-db2597775852\assembly\dl3\ac00e252\389e11d2_a377d401\NukeAutomation_Test.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:28.6070036Z</ModuleTime>
+      <ModuleName>NukeAutomation_Test</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AB-51-87-D9-EA-B7-62-25-F7-5B-CB-F6-0B-04-8D-E1-52-75-6F-37">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\ab9276c0-24e2-4666-9265-db2597775852\ab9276c0-24e2-4666-9265-db2597775852\assembly\dl3\84018bc1\006141cc_5f6fd401\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:28.6196206Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-2C-D7-E4-23-35-C1-89-CC-E5-32-F0-32-CD-EA-0D-E5-30-40-DD">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.console.exe</ModulePath>
+      <ModuleTime>2018-10-29T08:17:04Z</ModuleTime>
+      <ModuleName>xunit.console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EC-C0-2D-AD-FC-F0-70-BA-BC-F3-D2-B5-83-9B-3E-CD-9E-91-10-AA">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\ab9276c0-24e2-4666-9265-db2597775852\ab9276c0-24e2-4666-9265-db2597775852\assembly\dl3\46bd3660\00f9b7c2_5f6fd401\xunit.core.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:28.6329748Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7B-9A-AB-FE-2F-2E-1F-20-5A-36-8B-C0-38-08-BB-92-E3-B7-A8-18">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.8520929Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F1-67-10-FE-CA-06-2B-45-18-C0-DB-E8-DB-07-A4-7E-5B-25-BD-51">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.1697369Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F4-54-C7-59-FD-61-E7-47-4E-0A-64-35-96-3E-28-5D-B6-8C-21-86">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.8102601Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="26-E0-34-D3-A9-C4-33-7A-2B-12-1B-03-1E-48-23-95-AB-44-04-80">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:19.74798Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-83-11-F0-BE-0C-4A-A2-E7-49-98-89-7D-9D-A5-9B-BA-83-BA-E0">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Linq\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.2634939Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B4-E6-16-C1-FA-43-EA-35-C2-A8-E3-B0-87-8F-01-79-B7-F8-94-17">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\ab9276c0-24e2-4666-9265-db2597775852\ab9276c0-24e2-4666-9265-db2597775852\assembly\dl3\551dd37f\00fd8bd3_3876d401\Shouldly.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:28.9080239Z</ModuleTime>
+      <ModuleName>Shouldly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-8D-DE-19-A8-B4-D0-71-C3-FE-50-25-D0-B4-5A-BA-2B-A9-BF-CC">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\a1e6ae79-05ae-4e53-a1ed-5324067b45c8\a1e6ae79-05ae-4e53-a1ed-5324067b45c8\assembly\dl3\eee03197\00531ac5_5f6fd401\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:29.0366405Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7B-9A-AB-FE-2F-2E-1F-20-5A-36-8B-C0-38-08-BB-92-E3-B7-A8-18">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.8520929Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-D5-C6-DC-0C-59-DA-6B-C8-40-22-29-40-86-10-C6-40-6D-57-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.7427109Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="73-AB-BA-C7-89-43-2B-1A-CA-6F-E3-EE-9C-51-BD-7C-A2-4F-B5-C9">
+      <ModulePath>C:\Users\jhan\source\repos\.NetStudy\tests\Resharper_Test\bin\Debug\net461\Resharper_Test.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:18.9090973Z</ModuleTime>
+      <ModuleName>Resharper_Test</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="ED-8D-DE-19-A8-B4-D0-71-C3-FE-50-25-D0-B4-5A-BA-2B-A9-BF-CC">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-10-29T08:17:02Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="39-DB-4E-F6-A9-81-08-00-33-8D-EC-91-F5-56-FB-4D-0A-ED-99-9F">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\0de2df9f-1daa-4f34-a1d5-5eeafd441ad1\0de2df9f-1daa-4f34-a1d5-5eeafd441ad1\assembly\dl3\f64e81fc\006141cc_5f6fd401\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:29.1910365Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-38-FA-64-8C-19-3B-5A-2F-20-D8-11-BB-40-9E-11-85-D9-1B-CD">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\0de2df9f-1daa-4f34-a1d5-5eeafd441ad1\0de2df9f-1daa-4f34-a1d5-5eeafd441ad1\assembly\dl3\95225f08\0026e9c3_5f6fd401\xunit.execution.desktop.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:29.2046615Z</ModuleTime>
+      <ModuleName>xunit.execution.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-D5-C6-DC-0C-59-DA-6B-C8-40-22-29-40-86-10-C6-40-6D-57-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.7427109Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="73-AB-BA-C7-89-43-2B-1A-CA-6F-E3-EE-9C-51-BD-7C-A2-4F-B5-C9">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\0de2df9f-1daa-4f34-a1d5-5eeafd441ad1\0de2df9f-1daa-4f34-a1d5-5eeafd441ad1\assembly\dl3\c5d40ffe\9d341dd2_a377d401\Resharper_Test.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:29.2349635Z</ModuleTime>
+      <ModuleName>Resharper_Test</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AB-51-87-D9-EA-B7-62-25-F7-5B-CB-F6-0B-04-8D-E1-52-75-6F-37">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\0de2df9f-1daa-4f34-a1d5-5eeafd441ad1\0de2df9f-1daa-4f34-a1d5-5eeafd441ad1\assembly\dl3\7cddaf57\006141cc_5f6fd401\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:29.246667Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EA-2C-D7-E4-23-35-C1-89-CC-E5-32-F0-32-CD-EA-0D-E5-30-40-DD">
+      <ModulePath>C:\Users\jhan\.nuget\packages\xunit.runner.console\2.4.1\tools\net461\xunit.console.exe</ModulePath>
+      <ModuleTime>2018-10-29T08:17:04Z</ModuleTime>
+      <ModuleName>xunit.console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EC-C0-2D-AD-FC-F0-70-BA-BC-F3-D2-B5-83-9B-3E-CD-9E-91-10-AA">
+      <ModulePath>C:\Users\jhan\AppData\Local\Temp\0de2df9f-1daa-4f34-a1d5-5eeafd441ad1\0de2df9f-1daa-4f34-a1d5-5eeafd441ad1\assembly\dl3\2c816d6d\00f9b7c2_5f6fd401\xunit.core.dll</ModulePath>
+      <ModuleTime>2018-11-08T20:44:29.2599065Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7B-9A-AB-FE-2F-2E-1F-20-5A-36-8B-C0-38-08-BB-92-E3-B7-A8-18">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.8520929Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F1-67-10-FE-CA-06-2B-45-18-C0-DB-E8-DB-07-A4-7E-5B-25-BD-51">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.1697369Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F4-54-C7-59-FD-61-E7-47-4E-0A-64-35-96-3E-28-5D-B6-8C-21-86">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.8102601Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="26-E0-34-D3-A9-C4-33-7A-2B-12-1B-03-1E-48-23-95-AB-44-04-80">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:19.74798Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-83-11-F0-BE-0C-4A-A2-E7-49-98-89-7D-9D-A5-9B-BA-83-BA-E0">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Linq\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.2634939Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

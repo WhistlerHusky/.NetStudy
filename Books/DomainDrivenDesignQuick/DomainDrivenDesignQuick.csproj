@@ -5,10 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SourceLink.Create.CommandLine" Version="2.7.6" PrivateAssets="all" />
-      <PackageReference Include="SourceLink.Create.GitHub" Version="2.7.4" PrivateAssets="all" />
+    <PackageReference Include="SourceLink.Create.CommandLine" Version="2.8.3" PrivateAssets="all">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+      <PackageReference Include="SourceLink.Create.GitHub" Version="2.8.3" PrivateAssets="all">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      </PackageReference>
       <DotNetCliToolReference Include="dotnet-sourcelink-git" Version="2.7.4" />
-      <PackageReference Include="SourceLink.Test" Version="2.7.4" PrivateAssets="all" />
+      <PackageReference Include="SourceLink.Test" Version="2.8.3" PrivateAssets="all">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      </PackageReference>
   </ItemGroup>
 
 </Project>

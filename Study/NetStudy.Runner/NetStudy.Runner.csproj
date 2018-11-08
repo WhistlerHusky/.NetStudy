@@ -12,19 +12,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Shouldly" Version="3.0.0" />
+    <PackageReference Include="Shouldly" Version="3.0.2" />
     <PackageReference Include="SourceLinkTest" Version="1.0.0" />
-    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit" Version="2.4.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\NetStudy.Algorithms\NetStudy.Algorithms.csproj" />
-    <ProjectReference Include="..\..\Nugets\AutoMapper_Test\AutoMapper_Test.csproj" />
     <ProjectReference Include="..\..\Nugets\BenchmarkDotNet\BenchmarkDotNet.csproj" />
     <ProjectReference Include="..\..\Nugets\CastleWindsor\CastleWindsor.csproj" />
     <ProjectReference Include="..\..\Nugets\Elasticsearch_NEST\Elasticsearch_HighLevel_NEST.csproj" />
     <ProjectReference Include="..\..\Nugets\Redis\Redis.csproj" />
-    <ProjectReference Include="..\..\Resharper\Resharper_Test.csproj" />
+    <ProjectReference Include="..\NetStudy.Algorithms\NetStudy.Algorithms.csproj" />
     <ProjectReference Include="..\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj" />
     <ProjectReference Include="..\NetStudy.InDepth\NetStudy.InDepth.csproj" />
   </ItemGroup>

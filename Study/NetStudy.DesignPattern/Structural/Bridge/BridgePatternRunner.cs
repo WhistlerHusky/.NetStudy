@@ -61,8 +61,6 @@ namespace NetSutdy.DesignPattern.Structural.Bridge
     }
     class Firebat : AttackableUnit
     {
-        IWeapon _weapon;
-
         void Attach(Unit unit)
         {
             if (_weapon.GetType().Name.Contains("Gun"))
