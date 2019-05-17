@@ -1,6 +1,7 @@
 ﻿using NetStudy.Algorithms.Btree;
 using NetStudy.Core;
 using System;
+using NetStudy.InDepth.XmlDtd;
 
 namespace NetStudy.Runner
 {
@@ -49,8 +50,9 @@ namespace NetStudy.Runner
             //runner = new ResharperRunner();
             //runner = new NewLanguageFeaturesRunner();
             //runner = new AutoMapperRunner();
-            runner = new BTreeRunner();
-            
+            //runner = new BTreeRunner();
+            runner = new XmlDtdRunner();
+
             runner.Run();
 
             Console.ReadKey();

@@ -12,6 +12,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="resources\book.dtd" />
+    <None Remove="resources\book.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="resources\book.dtd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="resources\book.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Shouldly" Version="3.0.2" />
     <PackageReference Include="SourceLinkTest" Version="1.0.0" />
     <PackageReference Include="xunit" Version="2.4.1" />
@@ -31,5 +45,9 @@
     <None Update="log4net.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\" />
   </ItemGroup>
 </Project>
