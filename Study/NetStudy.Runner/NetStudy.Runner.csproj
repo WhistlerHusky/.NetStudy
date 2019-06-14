@@ -35,6 +35,7 @@
     <ProjectReference Include="..\..\Nugets\BenchmarkDotNet\BenchmarkDotNet.csproj" />
     <ProjectReference Include="..\..\Nugets\CastleWindsor\CastleWindsor.csproj" />
     <ProjectReference Include="..\..\Nugets\Elasticsearch_NEST\Elasticsearch_HighLevel_NEST.csproj" />
+    <ProjectReference Include="..\..\Nugets\gRPC\Greeter\Greeter.csproj" />
     <ProjectReference Include="..\..\Nugets\Redis\Redis.csproj" />
     <ProjectReference Include="..\NetStudy.Algorithms\NetStudy.Algorithms.csproj" />
     <ProjectReference Include="..\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj" />

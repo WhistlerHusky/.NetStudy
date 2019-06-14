@@ -1,7 +1,6 @@
-﻿using NetStudy.Algorithms.Btree;
+﻿using Greeter;
 using NetStudy.Core;
 using System;
-using NetStudy.InDepth.XmlDtd;
 
 namespace NetStudy.Runner
 {
@@ -51,9 +50,13 @@ namespace NetStudy.Runner
             //runner = new NewLanguageFeaturesRunner();
             //runner = new AutoMapperRunner();
             //runner = new BTreeRunner();
-            runner = new XmlDtdRunner();
-
+            //runner = new XmlDtdRunner();
+            runner = new GrpcServerRunner();
             runner.Run();
+
+            runner = new GrpcClientRunner();
+            runner.Run();
+
 
             Console.ReadKey();
         }
