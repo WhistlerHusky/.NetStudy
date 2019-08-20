@@ -32,11 +32,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\NetStudy.Channel\NetStudy.Channels.csproj" />
     <ProjectReference Include="..\..\Nugets\BenchmarkDotNet\BenchmarkDotNet.csproj" />
     <ProjectReference Include="..\..\Nugets\CastleWindsor\CastleWindsor.csproj" />
     <ProjectReference Include="..\..\Nugets\Elasticsearch_NEST\Elasticsearch_HighLevel_NEST.csproj" />
     <ProjectReference Include="..\..\Nugets\gRPC\Greeter\Greeter.csproj" />
     <ProjectReference Include="..\..\Nugets\Redis\Redis.csproj" />
+    <ProjectReference Include="..\..\Nugets\RxNet\RxNet.csproj" />
     <ProjectReference Include="..\NetStudy.Algorithms\NetStudy.Algorithms.csproj" />
     <ProjectReference Include="..\NetStudy.DesignPattern\NetSutdy.DesignPattern.csproj" />
     <ProjectReference Include="..\NetStudy.InDepth\NetStudy.InDepth.csproj" />

@@ -1,4 +1,4 @@
-﻿using Greeter;
+﻿using NetStudy.Channels;
 using NetStudy.Core;
 using System;
 
@@ -51,12 +51,17 @@ namespace NetStudy.Runner
             //runner = new AutoMapperRunner();
             //runner = new BTreeRunner();
             //runner = new XmlDtdRunner();
-            runner = new GrpcServerRunner();
-            runner.Run();
+            //runner = new GrpcServerRunner();
+            //runner.Run();
 
-            runner = new GrpcClientRunner();
-            runner.Run();
+            //runner = new GrpcClientRunner();
+            //runner.Run();
 
+            //runner = new ReactiveRunner();
+            //runner.Run();
+
+            runner = new ChannelRunner();
+            runner.Run();
 
             Console.ReadKey();
         }
