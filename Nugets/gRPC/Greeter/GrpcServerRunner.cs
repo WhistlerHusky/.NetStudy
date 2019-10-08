@@ -33,6 +33,7 @@ namespace Greeter
                 Console.ReadKey();
 
                 server.ShutdownAsync().Wait();
+                server2.ShutdownAsync().Start();
             });
         }
     }
