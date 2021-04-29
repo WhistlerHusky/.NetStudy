@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -32,6 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Cassandra_Practice\Cassandra_Practice.csproj" />
     <ProjectReference Include="..\..\NetStudy.Channel\NetStudy.Channels.csproj" />
     <ProjectReference Include="..\..\Nugets\BenchmarkDotNet\BenchmarkDotNet.csproj" />
     <ProjectReference Include="..\..\Nugets\CastleWindsor\CastleWindsor.csproj" />
